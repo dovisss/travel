@@ -13,8 +13,8 @@ module.exports = {
     proxyTable: {
       '/api': {
         target: 'http://localhost:8080',
-        pathRewrite: {
-          '^/api': '/static/mock'
+        pathRewrite: { // 替换
+          '^/api': '/static/mock' // 请求的地址如果是api开头的，则替换到/static/mock
         }
       }
     },
