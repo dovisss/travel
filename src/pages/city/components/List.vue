@@ -1,5 +1,3 @@
-<script src="../../../../../../Downloads/code/questions-demo/array-api.js"></script>
-<script src="../../../../../../Downloads/code/js-base/deepClone.js"></script>
 <template>
   <div class="list" ref="wrapper">
     <div>
