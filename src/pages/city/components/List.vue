@@ -17,11 +17,11 @@
           </div>
         </div>
       </div>
-      <div class="area" v-for="(item, key) of cities" :key="key">
+      <div class="area" v-for="(item, key) of cities" :key="key" :ref="key">
         <div class="title border-topbottom">{{key}}</div>
-        <div class="item-list" v-for="innerItem of item" :key="innerItem.id">
-          <div class="item border-bottom">{{innerItem.name}}</div>
-        </div>
+          <div class="item-list">
+            <div class="item border-bottom" v-for="innerItem of item" :key="innerItem.id">{{innerItem.name}}</div>
+          </div>
       </div>
     </div>
   </div>
@@ -32,14 +32,25 @@ import BScroll from 'better-scroll'
 export default {
   name: 'CityList',
   props: {
+    hotCities: Array,
     cities: Object,
-    hotCities: Array
+    letter: String
   },
   mounted () {
     this.scroll = new BScroll(this.$refs.wrapper)
   },
   updated () {
     this.scroll && this.scroll.refresh()
+  },
+  watch: {
+    letter () {
+      // console.log(element)
+      if (this.letter) {
+        const element = this.$refs[this.letter][0] // 因为是循环，所以是数组
+        // console.log(element) // element是一个dom元素
+        this.scroll.scrollToElement(element) // 让betterScroll滚到某个元素上
+      }
+    }
   }
 }
 </script>
