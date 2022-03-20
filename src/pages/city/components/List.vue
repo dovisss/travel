@@ -50,7 +50,9 @@ export default {
     })
   },
   mounted () {
-    this.scroll = new BScroll(this.$refs.wrapper)
+    this.scroll = new BScroll(this.$refs.wrapper, {
+      click: true
+    })
   },
   updated () {
     this.scroll && this.scroll.refresh()
