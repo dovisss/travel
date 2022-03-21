@@ -30,17 +30,21 @@ export default {
   methods: {
     handleScroll () {
       const top = document.documentElement.scrollTop
-      if (top > 60 && top <= 140) {
-        const opacity = top / 140
+      if (top > 60) {
+        let opacity = top / 140
+        opacity = opacity > 1 ? 1 : opacity
         this.opacityStyle = { opacity }
         this.showAbs = false
-      } else if (top <= 60) {
+      } else {
         this.showAbs = true
       }
     }
   },
-  activated () {
+  activated () { // 每次页面展示时执行
     window.addEventListener('scroll', this.handleScroll)
+  },
+  deactivated () { // 页面即将被隐藏/替换新页面时会执行
+    window.removeEventListener('scroll', this.handleScroll)
   }
 }
 </script>
