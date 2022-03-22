@@ -29,7 +29,8 @@ export default {
   },
   methods: {
     handleScroll () {
-      const top = document.documentElement.scrollTop
+      const top = document.documentElement.scrollTop ||
+        document.body.scrollTop || window.pageYOffset// 浏览器兼容
       if (top > 60) {
         let opacity = top / 140
         opacity = opacity > 1 ? 1 : opacity
@@ -40,10 +41,10 @@ export default {
       }
     }
   },
-  activated () { // 每次页面展示时执行
+  mounted () { // 每次页面展示时执行
     window.addEventListener('scroll', this.handleScroll)
   },
-  deactivated () { // 页面即将被隐藏/替换新页面时会执行
+  destroyed () { // 页面即将被隐藏/替换新页面时会执行
     window.removeEventListener('scroll', this.handleScroll)
   }
 }
