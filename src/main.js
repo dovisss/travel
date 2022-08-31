@@ -18,11 +18,7 @@ Vue.use(ElementUI)
 /* eslint-disable no-new */
 // 定义了一个vue根实例
 new Vue({
-  // 挂载到id等于app的元素上（index.html上面
-  el: '#app',
-  router,
-  store,
-  components: { App }, /* ES6写法，等同于App：App。在项目里用了一个局部组件叫App。在外层Vue实例里，组件也叫APP
-  App这个局部组件是从import App from './App' 导入来的 */
-  template: '<App/>'
-})
+	router,
+	store,
+	render: h => h(App)
+}).$mount('#app')
