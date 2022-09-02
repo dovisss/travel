@@ -8,12 +8,12 @@
         </div>
         <div class="banner-number">
           <span class="iconfont banner-icon">&#xe692;</span>
-          {{ this.bannerImgs.length }}
+          {{ bannerImgs.length }}
         </div>
       </div>
     </div>
     <fade-animation>
-      <common-gallery :imgs="bannerImgs" v-show="showGallery" @close="handleGalleryClose"></common-gallery>
+      <common-gallery :imgs="bannerImgs" v-show="showGalleryRef" @close="handleGalleryClose"></common-gallery>
     </fade-animation>
   </div>
 </template>
@@ -21,6 +21,7 @@
 <script>
 import CommonGallery from 'common/gallery/Gallery'
 import FadeAnimation from 'common/fade/FadeAnimation'
+import {ref} from "vue";
 export default {
   name: 'DetailBanner',
   components: {
@@ -32,22 +33,20 @@ export default {
     bannerImg: String,
     bannerImgs: Array
   },
-  data () {
-    return {
-      showGallery: false,
-      imgs: []
-    }
-  },
-  methods: {
-    handleBannerClick () {
-      this.showGallery = true
-    },
-    handleGalleryClose () {
-      this.showGallery = false
-    }
-  },
-  mounted() {
+  setup() {
+    const showGalleryRef = ref(false)
 
+    function handleBannerClick () {
+      showGalleryRef.value = true
+    }
+    function handleGalleryClose () {
+      showGalleryRef.value = false
+    }
+    return {
+      showGalleryRef,
+      handleBannerClick,
+      handleGalleryClose
+    }
   }
 }
 </script>

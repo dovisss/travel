@@ -1,13 +1,13 @@
 <template>
   <div>
     <div class="search">
-      <input v-model="keyword" class="search-input" type="text" placeholder="输入城市名或拼音"/>
+      <input v-model="keywordRef" class="search-input" type="text" placeholder="输入城市名或拼音"/>
     </div>
-    <div class="search-content" ref="search" v-show="keyword">
+    <div class="search-content" ref="searchRef" v-show="keywordRef">
       <ul>
         <li
           class="search-item border-bottom"
-          v-for="item of list"
+          v-for="item of listRef"
           :key="item.id"
           @click="handleCityClick(item.name)"
         >
@@ -23,61 +23,67 @@
 
 <script>
 import BScroll from 'better-scroll'
-import {mapMutations} from 'vuex'
+import {useStore} from 'vuex'
+import {useRouter} from 'vue-router'
+import {computed, onMounted, ref, watch} from "vue"
 export default {
   name: 'CitySearch',
   props: {
     cities: Object
   },
-  data () {
-    return {
-      keyword: '',
-      list: [],
-      timer: null
-    }
-  },
-  methods: {
-    handleCityClick (city) {
-      this.changeCity(city) // this.$store.commit('changeCity', city)
-      this.$router.push('/')
-    },
-    ...mapMutations(['changeCity'])
-  },
-  computed: {
-    hasNoData () {
-      return !this.list.length
-    }
-  },
-  updated () {
-    this.scroll && this.scroll.refresh()
-  },
-  watch: {
-    keyword () { // 节流函数
-      if (this.timer) {
-        clearTimeout(this.timer)
+  setup(props) {
+    const store = useStore()
+    const router = useRouter()
+    const searchRef = ref(null)
+    let keywordRef = ref('')
+    const listRef = ref([])
+    let timer = null
+    let hasNoData = computed(() => {
+      return !listRef.value.length
+    })
+
+    watch(keywordRef,(keyword, oldKeyword) => { // 节流函数
+      console.log(keyword)
+      if (timer) {
+        clearTimeout(timer)
+        timer = null
       }
-      if (!this.keyword) { // 搜索框没有数据，搜索列表不展示
-        this.list = []
+      if (!keyword) { // 搜索框没有数据，搜索列表不展示
+        listRef.value = []
         return
       }
-      this.timer = setTimeout(() => {
+      timer = setTimeout(() => {
         const result = []
-        for (let i in this.cities) {
-          this.cities[i].forEach((value) => {
-            if (value.spell.indexOf(this.keyword) > -1 ||
-                value.name.indexOf(this.keyword) > -1) {
+        for (let i in props.cities) {
+          props.cities[i].forEach((value) => {
+            if (value.spell.indexOf(keyword) > -1 ||
+                value.name.indexOf(keyword) > -1) {
               result.push(value)
             }
           })
         }
-        this.list = result
+        listRef.value = result
       }, 100)
+    })
+
+    function handleCityClick (city) {
+      store.commit('changeCity', city)
+      router.push('/')
+    }
+
+    onMounted(() =>{
+      new BScroll(searchRef.value, {click: true})
+    })
+    return {
+      keywordRef,
+      listRef,
+      hasNoData,
+      handleCityClick,
+      searchRef
     }
   },
-  mounted () {
-    this.scroll = new BScroll(this.$refs.search, {
-      click: true
-    })
+  updated () {
+    this.scroll && this.scroll.refresh()
   }
 }
 </script>

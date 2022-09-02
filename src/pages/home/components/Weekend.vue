@@ -24,10 +24,6 @@ export default {
   name: 'Weekend',
   props: {
     list: Array
-  },
-  data () {
-    return {
-    }
   }
 }
 </script>

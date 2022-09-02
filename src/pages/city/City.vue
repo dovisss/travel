@@ -1,9 +1,16 @@
 <template>
   <div>
     <city-header></city-header>
-    <city-search :cities="cities"></city-search>
-    <city-list :cities="cities" :hotCities="hotCities" :letter="letter"></city-list>
-    <city-alphabet :cities="cities" @change="handleLetterChange"></city-alphabet>
+    <city-search :cities="data.cities"></city-search>
+    <city-list
+      :cities="data.cities"
+      :hotCities="data.hotCities"
+      :letter="letterRef">
+    </city-list>
+    <city-alphabet
+      :cities="data.cities"
+      @change="handleLetterChange">
+    </city-alphabet>
   </div>
 </template>
 
@@ -13,6 +20,7 @@ import CitySearch from './components/Search'
 import CityList from './components/List'
 import CityAlphabet from './components/Alphabet'
 import axios from 'axios'
+import {onMounted, reactive, toRefs, ref} from "vue";
 export default {
   name: 'City',
   components: {
@@ -21,31 +29,39 @@ export default {
     CityList,
     CityAlphabet
   },
-  data () {
-    return {
-      hotCities: [],
-      cities: {},
-      letter: ''
-    }
-  },
-  methods: {
-    getCityInfo () {
-      axios.get('/api/city.json')
-        .then(this.handleGetCityInfoSucc)
-    },
-    handleGetCityInfoSucc (res) {
-      if (res.data.ret && res.data) {
-        this.cities = res.data.data.cities
-        this.hotCities = res.data.data.hotCities
-      }
-    },
-    handleLetterChange (letter) {
-      this.letter = letter
-    }
-  },
-  mounted () {
-    this.getCityInfo()
+  setup() {
+    let { letterRef, handleLetterChange } = useLetterLogic()
+    let { data } = useCityLogic()
+    return { data, letterRef, handleLetterChange}
   }
+}
+
+function useCityLogic() {
+  const data = reactive({
+    hotCities: [],
+    cities: {},
+    letter: ''
+  })
+
+  async function getCityInfo () {
+    let res = await axios.get('/api/city.json')
+    res = res.data
+    if (res.ret && res.data) {
+      let result = res.data
+      data.cities = result.cities
+      data.hotCities = result.hotCities
+    }
+  }
+
+  onMounted (() => { getCityInfo() })
+  return { data }
+}
+function useLetterLogic() {
+  const letterRef = ref('')
+  function handleLetterChange (selected) {
+    letterRef.value = selected
+  }
+  return { letterRef, handleLetterChange }
 }
 </script>
 

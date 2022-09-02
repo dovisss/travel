@@ -1,12 +1,12 @@
 <template>
   <div>
-    <router-link tag="div" to="/" class="header-abs" v-show="showAbs">
+    <router-link tag="div" to="/" class="header-abs" v-show="showAbsRef">
       <div class="iconfont header-abs-back">&#xe624;</div>
     </router-link>
     <div
       class="header-fixed"
-      v-show="!showAbs"
-      :style="opacityStyle"
+      v-show="!showAbsRef"
+      :style="opacityStyleRef"
     >
       <router-link to="/">
         <div class="iconfont header-fixed-back">&#xe624;</div>
@@ -17,35 +17,38 @@
 </template>
 
 <script>
+import {onMounted, onUnmounted, reactive, ref} from "vue";
+
 export default {
   name: 'Header',
-  data () {
-    return {
-      showAbs: true,
-      opacityStyle: {
-        opacity: 0
-      }
-    }
-  },
-  methods: {
-    handleScroll () {
+  setup() {
+    let showAbsRef = ref(true)
+    let opacityStyleRef = reactive({
+      opacity: 0
+    })
+
+    function handleScroll () {
       const top = document.documentElement.scrollTop ||
-        document.body.scrollTop || window.pageYOffset// 浏览器兼容
+          document.body.scrollTop || window.pageYOffset// 浏览器兼容
       if (top > 60) {
         let opacity = top / 140
         opacity = opacity > 1 ? 1 : opacity
-        this.opacityStyle = { opacity }
-        this.showAbs = false
+        opacityStyleRef.opacity = opacity
+        showAbsRef.value = false
       } else {
-        this.showAbs = true
+        showAbsRef.value = true
       }
     }
-  },
-  mounted () { // 每次页面展示时执行
-    window.addEventListener('scroll', this.handleScroll)
-  },
-  destroyed () { // 页面即将被隐藏/替换新页面时会执行
-    window.removeEventListener('scroll', this.handleScroll)
+    onMounted(() => { // 每次页面展示时执行
+      window.addEventListener('scroll', handleScroll)
+    })
+    onUnmounted(() => { // 页面即将被隐藏/替换新页面时会执行
+      window.removeEventListener('scroll', handleScroll)
+    })
+    return {
+      showAbsRef,
+      opacityStyleRef
+    }
   }
 }
 </script>

@@ -1,9 +1,9 @@
 <template>
   <div>
-    <detail-banner :sightName="sightName" :bannerImg="bannerImg" :bannerImgs="galleryImgs"></detail-banner>
-    <detail-header></detail-header>
+    <detail-banner :sightName="sightNameRef" :bannerImg="bannerImgRef" :bannerImgs="galleryImgsRef"></detail-banner>
+    <detail-header></detail-header><!--    返回箭头图标-->
     <div class="content">
-      <detail-list :list="list"></detail-list>
+      <detail-list :list="listRef"></detail-list>
     </div>
   </div>
 </template>
@@ -13,6 +13,8 @@ import DetailBanner from './components/Banner'
 import DetailHeader from './components/Header'
 import DetailList from './components/List'
 import axios from 'axios'
+import {onMounted, ref} from "vue";
+import {useRoute} from "vue-router"
 export default {
   name: 'Detail',
   components: {
@@ -20,36 +22,35 @@ export default {
     DetailHeader,
     DetailList
   },
-  data () {
-    return {
-      sightName: '',
-      bannerImg: '',
-      galleryImgs: [],
-      list: []
-    }
-  },
-  methods: {
-    getDetailInfo () {
-      axios.get('api/detail.json?id=', {
-        params: {
-          id: this.$route.params.id
-        }
+  setup() {
+    let sightNameRef = ref('')
+    let bannerImgRef = ref('')
+    let galleryImgsRef = ref([])
+    let listRef = ref([])
+    const route = useRoute()
+
+    async function getDetailInfo () {
+      let res = await axios.get('api/detail.json?id=', {
+        params:  {id: route.params.id }
       })
-        .then(this.handleGetDataSucc)
-    },
-    handleGetDataSucc (res) {
       res = res.data
       if (res.ret && res.data) {
         const data = res.data
-        this.sightName = data.sightName
-        this.bannerImg = data.bannerImg
-        this.galleryImgs = data.galleryImgs
-        this.list = data.categoryList
+        sightNameRef.value = data.sightName
+        bannerImgRef.value = data.bannerImg
+        galleryImgsRef.value = data.galleryImgs
+        listRef.value = data.categoryList
       }
     }
-  },
-  mounted () {
-    this.getDetailInfo()
+    onMounted (() => {
+      getDetailInfo()
+    })
+    return {
+      sightNameRef,
+      bannerImgRef,
+      galleryImgsRef,
+      listRef
+    }
   }
 }
 </script>

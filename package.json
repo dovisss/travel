@@ -1,5 +1,5 @@
 {
-  "name": "travel",
+  "name": "new-travel",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,22 +7,22 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "axios": "^0.17.1",
+    "better-scroll": "^1.8.1",
     "core-js": "^3.6.4",
-    "vue": "^2.6.11",
-    "vue-router": "^3.1.5",
-    "vuex": "^3.1.2",
-    "axios": "^0.26.0",
-    "better-scroll": "^2.4.2",
+    "vue": "^3.0.0-beta.1",
     "vue-awesome-swiper": "^2.6.7",
-    "element-ui": "^2.15.5"
+    "vue-router": "^4.0.0-alpha.6",
+    "vuex": "^4.0.0-alpha.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.2.3",
-    "@vue/cli-plugin-router": "~4.2.3",
-    "@vue/cli-plugin-vuex": "~4.2.3",
-    "@vue/cli-service": "~4.2.3",
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-router": "~4.2.0",
+    "@vue/cli-plugin-vuex": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "@vue/compiler-sfc": "^3.0.0-beta.1",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-cli-plugin-vue-next": "~0.1.4"
   }
 }

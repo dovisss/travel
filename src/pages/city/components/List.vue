@@ -5,7 +5,7 @@
         <div class="title border-topbottom">当前城市</div>
         <div class="button-list">
           <div class="button-wapper">
-            <div class="button">{{ this.currentCity }}</div>
+            <div class="button">{{ currentCity }}</div>
           </div>
         </div>
       </div>
@@ -17,7 +17,7 @@
           </div>
         </div>
       </div>
-      <div class="area" v-for="(item, key) of cities" :key="key" :ref="key">
+      <div class="area" v-for="(item, key) of cities" :key="key" :ref="elem => elems[key] = elem">
         <div class="title border-topbottom">{{key}}</div>
           <div class="item-list">
             <div class="item border-bottom" v-for="innerItem of item" :key="innerItem.id" @click="handleCityClick(innerItem.name)">{{innerItem.name}}</div>
@@ -29,7 +29,9 @@
 
 <script>
 import BScroll from 'better-scroll'
-import {mapState, mapMutations} from 'vuex'
+import {useStore} from 'vuex'
+import {onMounted, watch, ref} from "vue"
+import {useRouter} from 'vue-router'
 export default {
   name: 'CityList',
   props: {
@@ -37,35 +39,39 @@ export default {
     cities: Object,
     letter: String
   },
-  methods: {
-    handleCityClick (city) {
-      this.changeCity(city) // this.$store.commit('changeCity', city)
-      this.$router.push('/')
-    },
-    ...mapMutations(['changeCity'])
-  },
-  computed: {
-    ...mapState({
-      currentCity: 'city' // 把vuex里的city这个公用数据映射到currentCity
+  setup(props) {
+    const store = useStore()
+    const router = useRouter()
+    let currentCity = store.state.city
+    const elems = ref({})
+    const wrapper = ref(null) // vue自动把wrapper元素绑定到wrapper变量了
+    let scroll = null
+
+    function handleCityClick (city) {
+      store.commit('changeCity', city) // this.$store.commit('changeCity', city)
+      router.push('/')
+    }
+
+    watch(() => props.letter, (letter, oldLetter) => {
+      if (letter && scroll) {
+        const element = elems.value[letter] // 因为是循环，所以是数组
+        scroll.scrollToElement(element) // 让betterScroll滚到某个元素上
+      }
     })
-  },
-  mounted () {
-    this.scroll = new BScroll(this.$refs.wrapper, {
-      click: true
+    onMounted(() => {
+      scroll = new BScroll(wrapper.value, {
+        click: true
+      })
     })
+    return {
+      elems,
+      wrapper,
+      currentCity,
+      handleCityClick
+    }
   },
   updated () {
     this.scroll && this.scroll.refresh()
-  },
-  watch: {
-    letter () {
-      // console.log(element)
-      if (this.letter) {
-        const element = this.$refs[this.letter][0] // 因为是循环，所以是数组
-        // console.log(element) // element是一个dom元素
-        this.scroll.scrollToElement(element) // 让betterScroll滚到某个元素上
-      }
-    }
   }
 }
 </script>

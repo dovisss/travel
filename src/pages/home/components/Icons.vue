@@ -15,23 +15,20 @@
 </template>
 
 <script>
+import {computed} from "vue";
 
 export default {
   name: 'HomeIcons',
   props: {
     list: Array
   },
-  data () {
-    return {
-      swiperOption: {
-        autoplay: false
-      }
+  setup(props) {
+    const swiperOption = {
+      autoplay: false
     }
-  },
-  computed: {
-    pages () { // pages这个数据是由函数返回出来的内容
+    const pages = computed(() => {
       const pages = []
-      this.list.forEach((item, index) => { // 循环项和循环项对应的下标
+      props.list.forEach((item, index) => { // 循环项和循环项对应的下标
         const page = Math.floor(index / 8) // 页码
         if (!pages[page]) { // 如果不存在
           pages[page] = []
@@ -39,7 +36,9 @@ export default {
         pages[page].push(item)
       })
       return pages
-    }
+    })
+
+    return {swiperOption, pages}
   }
 }
 </script>
