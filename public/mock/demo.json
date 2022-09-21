@@ -1,0 +1,2141 @@
+{
+  "showapi_res_error": "",
+  "showapi_fee_num": 1,
+  "showapi_res_code": 0,
+  "showapi_res_id": "6328896c0de376fb3da1d48e",
+  "showapi_res_body": {
+    "ret_code": 0,
+    "remark": "",
+    "pagebean": {
+      "allPages": 9,
+      "contentlist": [
+        {
+          "proId": "6",
+          "summary": "中国（深圳）极地文化园地处深圳市福田区竹子林西段――深圳国际园林花卉博览园综合馆内，是中国华南及港、澳地区唯一的南极企鹅展出地和唯一国家级极地科普教育基地。\r\n极地文化园不仅是休闲旅游的好去处，更是一家人感受极地科学知识的好课堂，在清新的远古冰雪世界里，陶冶心灵，智慧人生\r\n",
+          "cityId": "91",
+          "location": {
+            "lon": "114.00874368",
+            "lat": "22.54166424"
+          },
+          "cityName": "深圳",
+          "priceList": [],
+          "ct": "2015-08-24 00:32:12.130",
+          "areaId": "3749",
+          "id": "26446",
+          "proName": "广东",
+          "areaName": "福田区",
+          "address": "<p>广东深圳市福田区深南大道竹子林园傅园综合管A厅<br /></p>",
+          "name": "深圳极地文化园",
+          "picList": []
+        },
+        {
+          "proId": "6",
+          "summary": "深圳音乐厅座落在深圳市福田中心区，交通便利，周边各类服务配套设施齐全。它北靠风光秀美的莲花山，南临深圳市政府，占地面积约26,345平方米，建筑面积约41,423平方米，由享誉国际建筑界的日本著名建筑大师矶崎新先生主持设计。其建筑造型优雅独特，外墙采用“黄红青白黑”五色，蕴含象征中国传统五行的理念，充分融汇出东西方的文化韵味。",
+          "cityId": "91",
+          "location": {
+            "lon": "114.06357453",
+            "lat": "22.55257739"
+          },
+          "cityName": "深圳",
+          "priceList": [],
+          "ct": "2015-08-24 00:32:14.735",
+          "areaId": "3749",
+          "id": "19143",
+          "proName": "广东",
+          "areaName": "福田区",
+          "address": "福田区福中一路2016号(近少年宫)",
+          "name": "深圳音乐厅",
+          "picList": []
+        },
+        {
+          "proId": "6",
+          "summary": "七大海洋主题展馆，一日穿越四大洋",
+          "location": {
+            "lon": "114.33485235",
+            "lat": "22.60868912"
+          },
+          "cityId": "91",
+          "cityName": "深圳",
+          "star": "4A",
+          "priceList": [
+            {
+              "entityList": [
+                {
+                  "TicketName": "深圳小梅沙海洋世界(深圳海洋世界)成人票",
+                  "Amount": "150",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-08-01",
+                  "PriceName": "8.1-12.31",
+                  "AmountAdvice": "135",
+                  "TicketTypeId": 118879,
+                  "PriceId": 219267,
+                  "PriceInSceneryId": 27775
+                },
+                {
+                  "TicketName": "深圳小梅沙海洋世界(深圳海洋世界)成人票",
+                  "Amount": "150",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-08-01",
+                  "PriceName": "8.1-12.31",
+                  "AmountAdvice": "135",
+                  "TicketTypeId": 120604,
+                  "PriceId": 219272,
+                  "PriceInSceneryId": 27775
+                },
+                {
+                  "TicketName": "深圳小梅沙沙滩成人票",
+                  "Amount": "50",
+                  "EndDate": "2015-08-31",
+                  "BeginDate": "2015-07-01",
+                  "PriceName": "7.1-8.31",
+                  "AmountAdvice": "48",
+                  "TicketTypeId": 156605,
+                  "PriceId": 204418,
+                  "PriceInSceneryId": 211109
+                },
+                {
+                  "TicketName": "【年卡特惠】深圳小梅沙海洋世界(深圳海洋世界)成人票",
+                  "Amount": "478",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-07-01",
+                  "PriceName": "7.1-12.31",
+                  "AmountAdvice": "280",
+                  "TicketTypeId": 129603,
+                  "PriceId": 218246,
+                  "PriceInSceneryId": 27775
+                },
+                {
+                  "TicketName": "【年卡特惠】深圳小梅沙海洋世界情侣年卡",
+                  "Amount": "938",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-07-01",
+                  "PriceName": "7.1-7.31",
+                  "AmountAdvice": "560",
+                  "TicketTypeId": 129604,
+                  "PriceId": 218253,
+                  "PriceInSceneryId": 27775
+                }
+              ],
+              "type": "成人票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "【年卡特惠】深圳小梅沙海洋世界亲子票1大1小",
+                  "Amount": "678",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-07-01",
+                  "PriceName": "7.1-7.31",
+                  "AmountAdvice": "400",
+                  "TicketTypeId": 129605,
+                  "PriceId": 218260,
+                  "PriceInSceneryId": 27775
+                },
+                {
+                  "TicketName": "【年卡特惠】深圳小梅沙海洋世界合家欢年卡",
+                  "Amount": "1138",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-07-01",
+                  "PriceName": "7.1-12.31",
+                  "AmountAdvice": "680",
+                  "TicketTypeId": 129606,
+                  "PriceId": 218265,
+                  "PriceInSceneryId": 27775
+                }
+              ],
+              "type": "家庭票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "深圳小梅沙沙滩儿童票",
+                  "Amount": "30",
+                  "EndDate": "2015-08-31",
+                  "BeginDate": "2015-07-01",
+                  "PriceName": "7月-8月",
+                  "AmountAdvice": "30",
+                  "TicketTypeId": 156651,
+                  "PriceId": 204473,
+                  "PriceInSceneryId": 211109
+                }
+              ],
+              "type": "儿童票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "深圳小梅沙海洋世界(深圳海洋世界)（儿童/老人）",
+                  "Amount": "75",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-08-01",
+                  "PriceName": "8.1-12.31",
+                  "AmountAdvice": "70",
+                  "TicketTypeId": 120615,
+                  "PriceId": 220830,
+                  "PriceInSceneryId": 27775
+                },
+                {
+                  "TicketName": "深圳小梅沙海洋世界(深圳海洋世界)（儿童/老人）",
+                  "Amount": "75",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-08-01",
+                  "PriceName": "8.1-12.31",
+                  "AmountAdvice": "70",
+                  "TicketTypeId": 118883,
+                  "PriceId": 220825,
+                  "PriceInSceneryId": 27775
+                }
+              ],
+              "type": "优待票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "深圳金色海岸游艇门票+大梅沙豪派特凌海酒店",
+                  "Amount": "428",
+                  "AmountAdvice": "255",
+                  "TicketTypeId": 0,
+                  "PriceInSceneryId": 0,
+                  "PriceId": 0
+                },
+                {
+                  "TicketName": "★限量，特惠★入住小梅沙旅游度假区，畅玩金色沙滩享受悠闲假日（凭房卡无限次出入）",
+                  "Amount": "620",
+                  "AmountAdvice": "169",
+                  "TicketTypeId": 0,
+                  "PriceInSceneryId": 0,
+                  "PriceId": 0
+                }
+              ],
+              "type": "酒店+景点"
+            }
+          ],
+          "areaId": "3761",
+          "ct": "2020-05-06 21:54:41.294",
+          "id": "27775",
+          "proName": "广东",
+          "price": "135.00",
+          "areaName": "盐田区",
+          "address": "广东省深圳市盐田区小梅沙海洋世界",
+          "name": "深圳小梅沙海洋世界(深圳海洋世界)",
+          "coupon": "A、免费政策：儿童身高＜1.2米（不含1.2米）；70周岁（含70周岁）以上老人（凭有效身份证件免票）。B、优待票适用于儿童票、老人票；身高在1.2米&le;身高&le;1.5米之间的儿童可购买儿童票，年龄在65&le;年龄&le;69周岁的老人（凭有效身份证件）可购买老人票。",
+          "opentime": "A、深圳小梅沙海洋世界取票时间：平日（10:00-16:30）；节假日、周末 （9:30-16:30）游玩时间：平日（10:00-17:30）；节假日、周末 （9:30-17:30）其中幻游海洋馆和海洋剧场的演出时间以当天园内通知为准。",
+          "attention": "①门票当天有效，出园需入园，需再次购票。②景区门票包含：门票为一票通，实际表演情况以景区当天公告为准。③为保证取票、入园顺利，预订时请务必填写真实姓名、手机号码等信息。活动提醒1.a.【深圳吃喝玩乐】在线旅游QQ咨询群：433800875b. 扫描下方二维码，实时关注【深圳吃住行】最新景区资讯动态，或添加微信公众号：szc17uc、（以上QQ群以及微信公众号 为驴友自发旅游经验分享群，不代表同程网官方）2.周边景点推荐：距离【金色海岸游艇】约5.5公里，【东部华侨城】约2.5公里，【明思克航母世界】约9公里",
+          "picList": [
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/70/da/rBANB1yAsi2AZNxIAAI_dfHM7Lc248.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/70/da/rBANB1yAsi2AZNxIAAI_dfHM7Lc248_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/70/da/rBANB1yAsiuAWaVKAAGTlQDbzwU147.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/70/da/rBANB1yAsiuAWaVKAAGTlQDbzwU147_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/e8/7b/rB5oQFyAsimAeyUFAAHWkiYOf4o958.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/e8/7b/rB5oQFyAsimAeyUFAAHWkiYOf4o958_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/70/da/rBANB1yAsieASeSEAAF5xZ0vtJM174.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/70/da/rBANB1yAsieASeSEAAF5xZ0vtJM174_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/001/f1/be/rBLkBVu8FP-APh_0AAJszxzU_z0490.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/01/001/f1/be/rBLkBVu8FP-APh_0AAJszxzU_z0490_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/001/f1/41/rBANC1u8FQuAYJWQAAIe2VIpgzM708.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/01/001/f1/41/rBANC1u8FQuAYJWQAAIe2VIpgzM708_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/000/f0/d4/rBLkCFu8FQaALvLeAAFzGu4LLPQ862.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/000/f0/d4/rBLkCFu8FQaALvLeAAFzGu4LLPQ862_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/000/f1/ba/rBLkBlu8FQWALItJAAJCwTarWTo886.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/01/000/f1/ba/rBLkBlu8FQWALItJAAJCwTarWTo886_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/98/4f/rB5oQFu8FQWAZWJdAALvVX5xbWc567.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/98/4f/rB5oQFu8FQWAZWJdAALvVX5xbWc567_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/000/f0/45/rBANDFu8FQOAUcs3AAHODZ-EmKE850.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/000/f0/45/rBANDFu8FQOAUcs3AAHODZ-EmKE850_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/000/f0/d3/rBLkCVu8FQCALz3HAAMNgnnBqdQ156.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/000/f0/d3/rBLkCVu8FQCALz3HAAMNgnnBqdQ156_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/000/f1/41/rBANC1u8FQSAIrqiAAKG2Lm3KlY674.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/01/000/f1/41/rBANC1u8FQSAIrqiAAKG2Lm3KlY674_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/001/f0/d4/rBLkCFu8FQKAUZmUAAId-5F0cHM338.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/001/f0/d4/rBLkCFu8FQKAUZmUAAId-5F0cHM338_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/001/f0/46/rBANDFu8FQeAeZ0GAAFnsw8pzVc488.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/001/f0/46/rBANDFu8FQeAeZ0GAAFnsw8pzVc488_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/98/4f/rB5oQFu8FQuAbuSEAAIBeE-dM8M695.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/98/4f/rB5oQFu8FQuAbuSEAAIBeE-dM8M695_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/000/f0/d4/rBLkCFu8FQqAbVwyAAGzM4LtciQ398.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/000/f0/d4/rBLkCFu8FQqAbVwyAAGzM4LtciQ398_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/001/f1/41/rBANC1u8FQqAHJhEAAGvPGgsAsA410.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/01/001/f1/41/rBANC1u8FQqAHJhEAAGvPGgsAsA410_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/000/f1/ba/rBLkBlu8FQmAWb_dAAHqSRSBMlY734.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/01/000/f1/ba/rBLkBlu8FQmAWb_dAAHqSRSBMlY734_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/001/f1/be/rBLkBVu8FQiADpudAAJhzoNooVA784.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/01/001/f1/be/rBLkBVu8FQiADpudAAJhzoNooVA784_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/000/f0/d4/rBLkCFu8FQSAcvYUAAL8CIB79qE059.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/000/f0/d4/rBLkCFu8FQSAcvYUAAL8CIB79qE059_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/001/f0/d4/rBLkCFu8FQGAC8t9AAFCbrNLK9Q722.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/001/f0/d4/rBLkCFu8FQGAC8t9AAFCbrNLK9Q722_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/60/74/rBANB1u8FQGAG-UzAAHtaNCgCVg310.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/60/74/rBANB1u8FQGAG-UzAAHtaNCgCVg310_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/60/74/rBANB1u8FP-AEa2YAAHWjbXm-y0596.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/60/74/rBANB1u8FP-AEa2YAAHWjbXm-y0596_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/23/15/GPE6Uq.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/23/15/GPE6Uq_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/23/14/gUrLd0.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/23/14/gUrLd0_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/23/15/RspdmC.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/23/15/RspdmC_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/23/15/5OzpqU.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/23/15/5OzpqU_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/23/15/UewRAq.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/23/15/UewRAq_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/23/15/Zopftq.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/23/15/Zopftq_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/23/15/noqYTk.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/23/15/noqYTk_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/23/15/p0hWC7.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/23/15/p0hWC7_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/23/14/rXpMta.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/23/14/rXpMta_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/65/65/rBANB1x9-GiAIXjIAADzP3VitcA687.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/65/65/rBANB1x9-GiAIXjIAADzP3VitcA687_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/dd/3c/rB5oQFx9-GiAPqQ0AAIAxhjOJWg749.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/dd/3c/rB5oQFx9-GiAPqQ0AAIAxhjOJWg749_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/65/65/rBANB1x9-GiAZk5qAAIlELyz2X0689.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/65/65/rBANB1x9-GiAZk5qAAIlELyz2X0689_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/65/65/rBANB1x9-GiABlCoAAJUeNpOnWo617.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/65/65/rBANB1x9-GiABlCoAAJUeNpOnWo617_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/dd/3c/rB5oQFx9-GiAO-uKAAHqpPHgPkI878.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/dd/3c/rB5oQFx9-GiAO-uKAAHqpPHgPkI878_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/65/65/rBANB1x9-GiASDJgAAIzbrhbM98336.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/65/65/rBANB1x9-GiASDJgAAIzbrhbM98336_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/65/65/rBANB1x9-GeAEEZvAAHDmj4wryU144.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/65/65/rBANB1x9-GeAEEZvAAHDmj4wryU144_130x130_00.jpg"
+            }
+          ]
+        },
+        {
+          "summary": "深圳著名海滩",
+          "proId": "6",
+          "location": {
+            "lon": "114.33248305",
+            "lat": "22.60632917"
+          },
+          "cityId": "91",
+          "cityName": "深圳",
+          "priceList": [
+            {
+              "entityList": [
+                {
+                  "TicketName": "深圳小梅沙沙滩成人票",
+                  "Amount": "50",
+                  "EndDate": "2015-08-31",
+                  "BeginDate": "2015-07-01",
+                  "PriceName": "7.1-8.31",
+                  "AmountAdvice": "48",
+                  "TicketTypeId": 156605,
+                  "PriceId": 204418,
+                  "PriceInSceneryId": 211109
+                }
+              ],
+              "type": "成人票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "深圳小梅沙沙滩儿童票",
+                  "Amount": "30",
+                  "EndDate": "2015-08-31",
+                  "BeginDate": "2015-07-01",
+                  "PriceName": "7月-8月",
+                  "AmountAdvice": "30",
+                  "TicketTypeId": 156651,
+                  "PriceId": 204473,
+                  "PriceInSceneryId": 211109
+                }
+              ],
+              "type": "儿童票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "深圳金色海岸游艇门票+大梅沙豪派特凌海酒店",
+                  "Amount": "428",
+                  "AmountAdvice": "255",
+                  "TicketTypeId": 0,
+                  "PriceInSceneryId": 0,
+                  "PriceId": 0
+                },
+                {
+                  "TicketName": "★限量，特惠★入住小梅沙旅游度假区，畅玩金色沙滩享受悠闲假日（凭房卡无限次出入）",
+                  "Amount": "620",
+                  "AmountAdvice": "169",
+                  "TicketTypeId": 0,
+                  "PriceInSceneryId": 0,
+                  "PriceId": 0
+                }
+              ],
+              "type": "酒店+景点"
+            }
+          ],
+          "areaId": "3761",
+          "ct": "2020-05-06 21:54:40.554",
+          "content": "小梅沙度假村是深圳知名的综合性旅游景点，位于深圳东部盐田区风景秀丽的大鹏湾之滨，享有东方夏威夷、迷人小梅沙的赞誉，2003年被评为鹏城八景之一，2006年被评选为中国最佳旅游去处中国魅力景区首届中国旅游行业十大领袖品牌。景点距市区29公里，离沙头角口岸15公里（其中：沙滩岸线长880米；沙滩及陆地面积12万平方米，沙滩4万平方米，海水面积134万平方米。）。在方圆十五公里范围拥揽一国两制中英街、明思克航母世界、梧桐烟雨、东部侨城三洲田生态景区、海洋世界、大亚湾核电站、大鹏古城等众多旅游观光景点，形成了一条内容丰富、特色分明的黄金海岸旅游线。小梅沙度假村依山傍海，拥有深圳最洁净的沙滩和最清澈的海水，风光怡人，阳光、沙滩、海浪、椰风吸引了无数的海内外游客。度假村伴随着深圳特区的成长，几经扩建翻新，耗资上亿元，建设成熟了以沙滩浴场为主体的十大服务功能、十类娱乐项目（指：别墅客房、购物商场、餐厅茶楼、听涛雅座、私物寄存、冷热冲凉、泳具出租、医护救生、广播寻人、拓展培训与海滩嬉水、沙滩游戏、千人烧烤、飞艇冲浪、海天飞伞、非洲滑索、潜水探秘、情人小径、海边垂钓、碣石观海）。这里汇集休闲、度假、餐饮、住宿、娱乐、购物等多项休闲度假功能于一体，为广大游客创造了一个设施完善、配套齐全、安全卫生、内容丰富的旅游度假天堂。深圳小梅沙度假村温馨提示注意安全，保管好自己随身物品。",
+          "id": "211109",
+          "proName": "广东",
+          "price": "20.00",
+          "areaName": "盐田区",
+          "address": "广东省深圳市盐田区小梅沙度假村",
+          "name": "深圳小梅沙度假村",
+          "attention": "①因海滨浴场是特殊景区，请游客一定服从景区的相观管理规定；②游客入园须购票，每票限进一人，重进须重新购票；为保证取票、入园顺利，预订时请务必填写真实姓名、手机号码等信息。③所带贵重物品及衣服请到寄存处要妥善保管以免丢失。④如遇台风等自然灾害情况，景区会闭园请注意出游时间。⑤请自觉遵守景区各项管理规定，维护景区正常秩序，爱护公共设施，保护环境。⑥海滩可以游泳，帐篷可以付费租用。活动提醒1.周边景点推荐：距离【金色海岸游艇】约5.5公里，【东部华侨城】约2.5公里，【明思克航母世界】约9公里",
+          "coupon": "A.免票政策：儿童身高1.2米以下免票；70岁以上的老人持本人有效证件免票。B.优惠政策：1.2米-1.5米之间的儿童（含1.2米、1.5米）以及65-69周岁之间的老人凭本人有效证件购景区优惠票。",
+          "opentime": "上午9:00开放，24小时营业。网络兑票时间早上9:00-晚上22:00",
+          "picList": [
+            {
+              "picUrl": "http://pic5.40017.cn/01/001/2c/ad/rBANC1o3aGWAH_jDAAMEVfs_cQk983.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/01/001/2c/ad/rBANC1o3aGWAH_jDAAMEVfs_cQk983_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/000/2d/22/rBLkBlo3aGSAODNbAAMVaxP2b_k291.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/01/000/2d/22/rBLkBlo3aGSAODNbAAMVaxP2b_k291_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/000/2d/16/rBLkCFo3aGOAVLVhAAMLCmM8QWw829.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/02/000/2d/16/rBLkCFo3aGOAVLVhAAMLCmM8QWw829_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/000/2d/16/rBLkCFo3aGGAfNIJAAMO_VrGnZY697.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/02/000/2d/16/rBLkCFo3aGGAfNIJAAMO_VrGnZY697_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/001/2c/c4/rBANDFo3aGCAP2sTAAMEZaCGf-4676.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/02/001/2c/c4/rBANDFo3aGCAP2sTAAMEZaCGf-4676_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/001/2d/22/rBLkBlo3aF-ABd91AAMcIeKq8nk678.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/01/001/2d/22/rBLkBlo3aF-ABd91AAMcIeKq8nk678_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/001/2d/22/rBLkBlo3aF6AVqKbAAMVrF0QlHQ226.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/01/001/2d/22/rBLkBlo3aF6AVqKbAAMVrF0QlHQ226_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/001/2d/22/rBLkBVo3aF2AZyrRAAMWZ2xgzV8489.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/01/001/2d/22/rBLkBVo3aF2AZyrRAAMWZ2xgzV8489_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/000/2c/c4/rBANDFo3aFyAJdfIAAMZTTKJpGY481.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/02/000/2c/c4/rBANDFo3aFyAJdfIAAMZTTKJpGY481_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/001/2d/16/rBLkCVo3aFuAHJJ7AAMNHPIOg3Q682.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/02/001/2d/16/rBLkCVo3aFuAHJJ7AAMNHPIOg3Q682_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/001/2d/22/rBLkBVo3aFmAB14lAAMIDRZhics476.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/01/001/2d/22/rBLkBVo3aFmAB14lAAMIDRZhics476_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/000/2d/16/rBLkCFo3aFiAYl_AAAMPWO1tOd0047.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/02/000/2d/16/rBLkCFo3aFiAYl_AAAMPWO1tOd0047_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/000/2c/ad/rBANC1o3aFeABZCiAAMTCoKBWSU013.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/01/000/2c/ad/rBANC1o3aFeABZCiAAMTCoKBWSU013_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/000/2d/22/rBLkBlo3aFaAQOHpAAMXVjalUns582.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/01/000/2d/22/rBLkBlo3aFaAQOHpAAMXVjalUns582_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/001/2d/22/rBLkBlo3aFSAArMeAAMVJTBMB5s894.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/01/001/2d/22/rBLkBlo3aFSAArMeAAMVJTBMB5s894_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/001/2d/16/rBLkCFo3aFOANlnZAAMDmScwdQA984.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/02/001/2d/16/rBLkCFo3aFOANlnZAAMDmScwdQA984_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/001/2d/16/rBLkCFo3aFKATbWgAAMVkpMPhAU604.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/02/001/2d/16/rBLkCFo3aFKATbWgAAMVkpMPhAU604_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/000/2d/22/rBLkBVo3aFGAdW4tAAMbBv-EImw703.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/01/000/2d/22/rBLkBVo3aFGAdW4tAAMbBv-EImw703_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/000/2d/22/rBLkBVo3aFCAEi72AAMQKKTQs1Y441.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/01/000/2d/22/rBLkBVo3aFCAEi72AAMQKKTQs1Y441_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/001/2c/c4/rBANDFo3aE-AabLoAAMaQ-A_OYs731.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/001/2c/c4/rBANDFo3aE-AabLoAAMaQ-A_OYs731_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/000/2d/16/rBLkCFo3aE6ALoYbAAMUtoCazHg788.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/000/2d/16/rBLkCFo3aE6ALoYbAAMUtoCazHg788_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/001/2d/16/rBLkCVo3aEyACBPQAAL_HfQslWE593.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/001/2d/16/rBLkCVo3aEyACBPQAAL_HfQslWE593_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/000/2c/c4/rBANDFo3aEuATn_hAAMTwHGWnKM545.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/000/2c/c4/rBANDFo3aEuATn_hAAMTwHGWnKM545_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/000/2d/22/rBLkBlo3aEqAcZNNAAMHlWuoTHo015.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/01/000/2d/22/rBLkBlo3aEqAcZNNAAMHlWuoTHo015_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/000/2c/c4/rBANDFo3aEmAAevZAAMbvWq-6UA389.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/02/000/2c/c4/rBANDFo3aEmAAevZAAMbvWq-6UA389_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/000/2d/16/rBLkCFo3aEeAA14qAAMMYL4a7Hk964.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/02/000/2d/16/rBLkCFo3aEeAA14qAAMMYL4a7Hk964_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/001/2c/c4/rBANDFo3aEaAFhKoAAMOMBPkRsU680.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/02/001/2c/c4/rBANDFo3aEaAFhKoAAMOMBPkRsU680_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/000/2d/22/rBLkBVo3aEWAUPXwAAMSaYPEpfo858.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/01/000/2d/22/rBLkBVo3aEWAUPXwAAMSaYPEpfo858_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/000/2d/22/rBLkBVo3aESAZIdpAAMUwcKjNMk853.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/01/000/2d/22/rBLkBVo3aESAZIdpAAMUwcKjNMk853_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/001/2c/c4/rBANDFo3aEOAB8rYAAMNUPnZ3tU223.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/02/001/2c/c4/rBANDFo3aEOAB8rYAAMNUPnZ3tU223_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/001/2c/ad/rBANC1o3aEKALx6pAAMSGcof164307.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/01/001/2c/ad/rBANC1o3aEKALx6pAAMSGcof164307_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/000/2d/16/rBLkCFo3aECAPl0CAAMVVEI4TT8198.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/000/2d/16/rBLkCFo3aECAPl0CAAMVVEI4TT8198_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/000/2d/22/rBLkBVo3aD-AUx3yAAMMRSr2YQI206.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/01/000/2d/22/rBLkBVo3aD-AUx3yAAMMRSr2YQI206_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/001/2d/22/rBLkBVo3aD6AHAiqAAMaZTTvXu8936.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/01/001/2d/22/rBLkBVo3aD6AHAiqAAMaZTTvXu8936_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/001/2d/15/rBLkCFo3aD2ARcjMAAMVlGZPnXE963.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/02/001/2d/15/rBLkCFo3aD2ARcjMAAMVlGZPnXE963_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/000/2d/22/rBLkBlo3aDuAQFqEAAMRpnj3OfU297.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/01/000/2d/22/rBLkBlo3aDuAQFqEAAMRpnj3OfU297_130x130_00.JPG"
+            }
+          ]
+        },
+        {
+          "proId": "6",
+          "summary": "深圳宝安国际机场位于珠江口东岸的一片滨海平原上，占地面积11平方公里，飞行区等级为4E，机场实行24小时运行服务，拥有跑道（3400mх45m）、滑行道各1条，可供世界上最大型客货机起降。现有客货机坪总面积58.8万平方米，候机楼总面积14.6万平方米,可满足年旅客吞吐量1500万人次、年货物处理70万吨的要求。\r\n",
+          "cityId": "91",
+          "location": {
+            "lon": "113.82561835",
+            "lat": "22.65241101"
+          },
+          "cityName": "深圳",
+          "priceList": [],
+          "ct": "2015-08-24 00:32:19.123",
+          "areaId": "3757",
+          "id": "21599",
+          "proName": "广东",
+          "areaName": "宝安区",
+          "address": "",
+          "name": "深圳宝安国际机场",
+          "picList": []
+        },
+        {
+          "summary": "宝安科普教育宣传中心，交通非常便利，环境幽静。",
+          "proId": "6",
+          "location": {
+            "lon": "113.91813476",
+            "lat": "22.56414133"
+          },
+          "cityId": "91",
+          "cityName": "深圳",
+          "priceList": [
+            {
+              "entityList": [
+                {
+                  "TicketName": "深圳宝安区科技馆成人票(4D动感影院科普之旅套票)",
+                  "Amount": "20",
+                  "EndDate": "2016-01-31",
+                  "BeginDate": "2012-02-29",
+                  "PriceName": "周二至周日",
+                  "AmountAdvice": "15",
+                  "TicketTypeId": 10999,
+                  "PriceId": 15018,
+                  "PriceInSceneryId": 29121
+                }
+              ],
+              "type": "组合优惠票"
+            }
+          ],
+          "areaId": "3757",
+          "ct": "2015-08-24 00:32:21.452",
+          "content": "深圳宝安区科技馆，地处宝安区的中心地段，是宝安科普教育宣传中心，交通非常便利，环境幽静，拥有宽敞明亮的空调教学场地。中心拥有一批专业知识丰富、教学效果良好、非常富有敬业精神的专、兼职教师队伍和一批高素质的教务管理人员。 宝安科技馆4D动感影院电影！鼠老三进城、拯救小猪皮克、糖果风暴、雪地狂奔、海龟之旅、海盗船、史前历险、灾难、气象万千等多部影片！强烈的视觉冲击力，给您身临其境的感觉！ 宝安科技馆培训中心，欢迎社会各界人士前来参观、学习。我们将以高质量的教学，专业化的管理，良好的社会信誉与您共同努力，创造美好的未来。",
+          "id": "29121",
+          "proName": "广东",
+          "price": "15.00",
+          "areaName": "宝安区",
+          "address": "广东省深圳市宝安区龙井路",
+          "name": "深圳宝安区科技馆",
+          "attention": "A、门票当天有效，出园需入园，需再次购票；为保证取票、入园顺利，预订时请务必填写真实姓名、手机号码等信息。B、4D动感影院科普之旅套票包含：免费参观一楼科普展馆、二楼科普展厅、少儿科普启蒙展厅和4D动感影院票一张。C、4D影院周六、周日随到随开放，周二至周四不满3人不开放，客人周二至周四前去观看需提前一天致电景区预约。请游客根据场次表，合理安排观影时间，观影时间每场15分钟。场次安排表：\r\n",
+          "coupon": "A.免费政策：儿童身高1.2米以下免票。\r\nB.优惠政策：学生持相关证件购学生票（大学生除外）购优惠票。（优惠政策仅供参考，请自行至景区咨询购买。）",
+          "opentime": "\r\n 9:00&mdash;17:30（周一闭馆）\r\n",
+          "picList": []
+        },
+        {
+          "summary": "让游客仿佛进入一个亦真亦幻的神秘境界",
+          "proId": "6",
+          "location": {
+            "lon": "113.98700428",
+            "lat": "22.54573513"
+          },
+          "cityId": "91",
+          "cityName": "深圳",
+          "star": "5A",
+          "priceList": [
+            {
+              "entityList": [
+                {
+                  "TicketName": "【红包可减5元】深圳欢乐谷夜场成人票(含玛雅水世界)",
+                  "Amount": "100",
+                  "EndDate": "2015-08-31",
+                  "BeginDate": "2015-07-01",
+                  "PriceName": "周一至周四",
+                  "AmountAdvice": "69",
+                  "TicketTypeId": 179707,
+                  "PriceId": 232146,
+                  "PriceInSceneryId": 3555
+                },
+                {
+                  "TicketName": "深圳欢乐谷夜场成人票（含玛雅水世界）",
+                  "Amount": "100",
+                  "EndDate": "2015-08-31",
+                  "BeginDate": "2015-07-01",
+                  "PriceName": "周一至周四",
+                  "AmountAdvice": "69",
+                  "TicketTypeId": 154395,
+                  "PriceId": 201710,
+                  "PriceInSceneryId": 3555
+                },
+                {
+                  "TicketName": "深圳欢乐谷成人票(全天票)",
+                  "Amount": "200",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-05-01",
+                  "PriceName": "",
+                  "AmountAdvice": "190",
+                  "TicketTypeId": 109931,
+                  "PriceId": 184767,
+                  "PriceInSceneryId": 31243
+                },
+                {
+                  "TicketName": "【年卡】深圳欢乐谷成人年卡",
+                  "Amount": "880",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-06-01",
+                  "PriceName": "",
+                  "AmountAdvice": "568",
+                  "TicketTypeId": 160529,
+                  "PriceId": 209318,
+                  "PriceInSceneryId": 31243
+                },
+                {
+                  "TicketName": "深圳欢乐干线成人票（电子票）",
+                  "Amount": "50",
+                  "EndDate": "2015-08-31",
+                  "BeginDate": "2015-07-01",
+                  "PriceName": "7.1-8.31",
+                  "AmountAdvice": "36",
+                  "TicketTypeId": 153104,
+                  "PriceId": 200168,
+                  "PriceInSceneryId": 31243
+                },
+                {
+                  "TicketName": "深圳欢乐干线成人票（实体票）",
+                  "Amount": "50",
+                  "EndDate": "2015-08-31",
+                  "BeginDate": "2015-07-01",
+                  "PriceName": "7月8月平日价",
+                  "AmountAdvice": "36",
+                  "TicketTypeId": 122317,
+                  "PriceId": 155423,
+                  "PriceInSceneryId": 31243
+                }
+              ],
+              "type": "成人票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "深圳欢乐谷学生票(6.1-8.31)",
+                  "Amount": "200",
+                  "EndDate": "2015-08-31",
+                  "BeginDate": "2015-06-10",
+                  "PriceName": "",
+                  "AmountAdvice": "170",
+                  "TicketTypeId": 160883,
+                  "PriceId": 209773,
+                  "PriceInSceneryId": 31243
+                }
+              ],
+              "type": "学生票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "【年卡】深圳欢乐谷（老人/儿童）年卡",
+                  "Amount": "620",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-06-01",
+                  "PriceName": "",
+                  "AmountAdvice": "398",
+                  "TicketTypeId": 160532,
+                  "PriceId": 209322,
+                  "PriceInSceneryId": 31243
+                }
+              ],
+              "type": "优待票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "特惠狂欢！野生动物园或欢乐谷或锦绣中华门票+住豪派特华美达广场酒店 Ramada Plaza",
+                  "Amount": "1098",
+                  "AmountAdvice": "462",
+                  "TicketTypeId": 0,
+                  "PriceInSceneryId": 0,
+                  "PriceId": 0
+                },
+                {
+                  "TicketName": "【暑期超级特惠】深圳东华假日酒店（holiday in）酒店+自选深圳景点",
+                  "Amount": "1380",
+                  "AmountAdvice": "259",
+                  "TicketTypeId": 0,
+                  "PriceInSceneryId": 0,
+                  "PriceId": 0
+                }
+              ],
+              "type": "酒店+景点"
+            }
+          ],
+          "areaId": "3755",
+          "ct": "2020-05-06 21:54:38.521",
+          "id": "31243",
+          "content": " 骑警训练营&mdash;疯狂精灵&mdash;旋转木马&mdash;丛林水战&mdash;蘑菇圆舞曲&mdash;太空梭&mdash;金矿漂流&mdash;金矿听音室&mdash;矿山车&mdash;异度空间&mdash;雪山飞龙&mdash;完美风暴&mdash;四维电影&mdash;《地道战》&mdash;寻梦河&mdash;UFO&mdash;龙卷风&mdash;发现者&mdash;欢乐风火轮  浪花跳跳&mdash;3D影院&mdash;模拟消防队&mdash;弹跳青蛙&mdash;城堡守望者&mdash;蚁兵特工队&mdash;旋转木马&mdash;丛林水战&mdash;蘑菇圆舞曲&mdash;森林攀爬&mdash;金矿漂流&mdash;矿井戏水&mdash;丛林狩猎&mdash;青蛙跳&mdash;飓风眼&mdash;四维电影&mdash;《地道战》&mdash;《幻城》",
+          "proName": "广东",
+          "price": "36.00",
+          "areaName": "南山区",
+          "address": "广东省深圳市南山区华侨城侨城西路",
+          "name": "深圳欢乐谷",
+          "attention": "①每人每天限订一次且不超过5张(需实名制），请正确填写姓名，手机号码否则景区有权不予入园；如果超过5张票请提供多人预订，取票时请出示有效身份证。②门票当天有效，出园需入园，需再次购票。③具体门票包含内容请见该门票票型内的包含项目。④为保证取票、入园顺利，预订时请务必填写真实姓名、手机号码等信息。⑤活动内容如有变动，以当日公告为准。所有游乐项目均会定期进行日检、周检和年度检修，相关检修工作可能会造成部分游乐项目运行时间的延迟或暂停对游客开放，详情以项目现场公告为准。⑥深圳欢乐谷成人日场票必须4:00前预订且支付成功方有效；深圳欢乐谷夜场必须16:00前预订且支付成功方有效。⑦因前广场升级改造需要，从5月7日起，深圳欢乐谷开始进行前广场改造，游客入园需按照景区现场指示，最后至闸口最左侧闸机入园。⑧欢乐干线的具体开放时间详见票型说明，具体开放时间以当日实际情况为准。⑨进入欢乐谷水公园游客，请务必穿好正规泳衣，对不遵守景区游玩规则，穿戴便装，景区工作人员将有权禁止游客下水。⑩进入欢乐谷园内游客，禁止自带雨衣游玩景区园内水上项目。\r\n\r\n活动提醒1.A、【深圳吃喝玩乐】在线旅游QQ咨询群：433800875B、扫描下方二维码，实时关注【深圳吃住行】最新景区资讯动态，或添加微信公众号：szc17u C、（以上QQ群以及微信公众号 为驴友自发旅游经验分享群，不代表同程网官方）",
+          "coupon": "1、深圳欢乐谷A、免票政策：儿童身高&lt;1.2米免费；70周岁以上老年人凭身份证、军残1-6级免票；残疾人1-2级免票。B、优惠政策：1.2米&le;儿童身高&le;1.5米、65&le;年龄&le;69周岁之间老人身份证、残疾3级凭二代残疾证、现役军人凭军官证购景区优惠票（上述优惠政策，需到景区自行购买）。C、夜场门票与特价门票不设半票；（身高1.2米以下的小孩与70岁以上老人免票（老人请携带身份证自行入园））。2、欢乐干线：A、免票政策：儿童身高&lt;1.2米免费；70周岁以上的长者凭有效证件、持《深圳市敬老优待证》长者17:00后可免费乘坐（备注：如同时携带2名或2名以上1.2米（含）以下儿童，只提供1位儿童免票，其他儿童须购买半票）。B、优惠政策：1.2米&le;儿童身高&le;1.5米，景区窗口购票30元/人。",
+          "opentime": "开放时间：平日：9:30-21:00，节假日9:00-22:00                夜场票：18:00-21:00，节假日18:00-22:00入园及取票时间时间：全天票：平日9:30-16:30，节假日9:00-16:30               夜场票：平日18:00-19:30，节假日18:00-20:00备注：请在规定的入园时间内检票（具体以景区公当天公告为准）",
+          "picList": [
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/PuJ0VmXw2s.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/PuJ0VmXw2s_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/Nne5mcnBIY.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/Nne5mcnBIY_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/Nne4UiA2VG.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/Nne4UiA2VG_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/Nne4MCyGBi.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/Nne4MCyGBi_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/Nne53hv4go.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/Nne53hv4go_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/Nne59NHNe0.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/Nne59NHNe0_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/Nne5gewf6M.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/Nne5gewf6M_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/Nne6AxlbuE.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/Nne6AxlbuE_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/Nne6ttVhV6.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/Nne6ttVhV6_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/Nne6lKMme4.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/Nne6lKMme4_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/Nne6fBQJVK.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/Nne6fBQJVK_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/Nne68DxCHm.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/Nne68DxCHm_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/Nne6051isE.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/Nne6051isE_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/Nne5TeF3gs.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/Nne5TeF3gs_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/Nne5MaoleE.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/Nne5MaoleE_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/Nne5FvXfva.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/Nne5FvXfva_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/Nne5yDk6S4.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/Nne5yDk6S4_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/Nne5sawt4Q.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/Nne5sawt4Q_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/NdDzOKWYFi.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/NdDzOKWYFi_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MwCjqM1AsM.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MwCjqM1AsM_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MLDfcnsZ7a.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MLDfcnsZ7a_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MLDfyoNyLu.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MLDfyoNyLu_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/24/10/tOcZJs.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/24/10/tOcZJs_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MLDgRuoKu4.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MLDgRuoKu4_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MLDgK4Qf9S.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MLDgK4Qf9S_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MLDgD1ZxQs.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MLDgD1ZxQs_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MLDgv3eFZS.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MLDgv3eFZS_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MLDgo4VF9S.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MLDgo4VF9S_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MLDgh8BJPW.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MLDgh8BJPW_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MLDg9L2k1O.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MLDg9L2k1O_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MLDg2v8b7O.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MLDg2v8b7O_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MLDfTVL3uU.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MLDfTVL3uU_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MLDfN1qk5q.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MLDfN1qk5q_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MLDfFzB1II.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MLDfFzB1II_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MLDfpZmoGQ.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MLDfpZmoGQ_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MLDfjeXJe0.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MLDfjeXJe0_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MLDeWc2WaY.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MLDeWc2WaY_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MLDePx2Ebm.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MLDePx2Ebm_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MLDeIbK1pK.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MLDeIbK1pK_130x130_00.jpg"
+            }
+          ]
+        },
+        {
+          "summary": "一百多个世界著名的文化景观和建筑奇迹",
+          "proId": "6",
+          "location": {
+            "lon": "113.98111271",
+            "lat": "22.54091364"
+          },
+          "cityId": "91",
+          "cityName": "深圳",
+          "star": "5A",
+          "priceList": [
+            {
+              "entityList": [
+                {
+                  "TicketName": "【啤酒节】深圳世界之窗夜场（6.6-9.6）",
+                  "Amount": "60",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-05-01",
+                  "PriceName": "",
+                  "AmountAdvice": "55",
+                  "TicketTypeId": 50464,
+                  "PriceId": 163022,
+                  "PriceInSceneryId": 30639
+                },
+                {
+                  "TicketName": "【会员日】深圳世界之窗成人票（8.22-8.23）",
+                  "Amount": "180",
+                  "EndDate": "2015-08-23",
+                  "BeginDate": "2015-08-22",
+                  "PriceName": "",
+                  "AmountAdvice": "120",
+                  "TicketTypeId": 190016,
+                  "PriceId": 243751,
+                  "PriceInSceneryId": 3503
+                }
+              ],
+              "type": "特惠票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "深圳世界之窗成人票",
+                  "Amount": "180",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-01-01",
+                  "PriceName": "",
+                  "AmountAdvice": "170",
+                  "TicketTypeId": 18278,
+                  "PriceId": 133745,
+                  "PriceInSceneryId": 3503
+                },
+                {
+                  "TicketName": "【特惠】世界之窗阿尔卑斯冰雪世界滑冰门票",
+                  "Amount": "60",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-01-19",
+                  "PriceName": "",
+                  "AmountAdvice": "45",
+                  "TicketTypeId": 114121,
+                  "PriceId": 143106,
+                  "PriceInSceneryId": 32265
+                }
+              ],
+              "type": "成人票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "【特惠】世界之窗阿尔卑斯冰雪世界套票",
+                  "Amount": "110",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-01-19",
+                  "PriceName": "",
+                  "AmountAdvice": "68",
+                  "TicketTypeId": 114122,
+                  "PriceId": 143108,
+                  "PriceInSceneryId": 32265
+                }
+              ],
+              "type": "组合优惠票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "深圳世界之窗中高考学生票",
+                  "Amount": "180",
+                  "EndDate": "2015-08-31",
+                  "BeginDate": "2015-06-23",
+                  "PriceName": "6.10-8.31",
+                  "AmountAdvice": "90",
+                  "TicketTypeId": 166255,
+                  "PriceId": 216571,
+                  "PriceInSceneryId": 3503
+                }
+              ],
+              "type": "学生票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "深圳世界之窗团队票（10人起订）",
+                  "Amount": "180",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-02-05",
+                  "PriceName": "",
+                  "AmountAdvice": "155",
+                  "TicketTypeId": 122368,
+                  "PriceId": 155020,
+                  "PriceInSceneryId": 3503
+                },
+                {
+                  "TicketName": "【需持港澳通行证】深圳世界之窗团队票（10人起订）",
+                  "Amount": "180",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-02-05",
+                  "PriceName": "",
+                  "AmountAdvice": "140",
+                  "TicketTypeId": 122997,
+                  "PriceId": 155801,
+                  "PriceInSceneryId": 3503
+                }
+              ],
+              "type": "团体票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "【暑期超级特惠】深圳东华假日酒店（holiday in）酒店+自选深圳景点",
+                  "Amount": "1380",
+                  "AmountAdvice": "259",
+                  "TicketTypeId": 0,
+                  "PriceInSceneryId": 0,
+                  "PriceId": 0
+                },
+                {
+                  "TicketName": "【经济实惠】深圳振兴宾馆+自选周边景点",
+                  "Amount": "478",
+                  "AmountAdvice": "329",
+                  "TicketTypeId": 0,
+                  "PriceInSceneryId": 0,
+                  "PriceId": 0
+                }
+              ],
+              "type": "酒店+景点"
+            }
+          ],
+          "areaId": "3755",
+          "ct": "2020-05-06 21:54:38.938",
+          "id": "3503",
+          "content": "深圳世界之窗是国家首批AAAAA级旅游景区，占地48万平方米,景区按世界地域结构和游览活动内容分为世界广场、亚洲区、大洋洲区、欧洲区、非洲区、美洲区、世界雕 塑园和国际街八大区域。作为以弘扬世界文化精华为主题的大型文化旅游景区，世界之窗荟萃了世界几千年人类文明的精华，有历史遗迹、名胜、自然风光、世界奇观、民居、雕塑等130多个景点，其中包括园林艺术、民俗风情、民间歌舞、大型演出以及高科技参与性娱乐项目等。世界广场六座代表不同文化的城门和镶嵌其中的全景式环球舞台，每晚19:30分将上演大型歌舞剧表演。国际街以欧、亚、伊斯兰等民居建筑风格为主体，集教堂、集市、街道于一处，是供游人小憩和购物的好地方，游客仿佛置身于欧洲、亚洲、伊斯兰那些异国的浪漫之乡。游玩景点深圳世界窗&mdash;微缩景区 世界之窗位于深圳湾畔、是中国著名的微缩景区。全园分为世界广场、亚洲区、美洲区、非洲区、大洋洲区、欧洲区、雕塑园和国际街8个主题区，荟萃了世界几千年人类文明的精华游玩景点世界之窗&mdash;欧洲区 最引人瞩目的是法国艾菲尔铁塔、巴黎凯旋门，埃菲尔铁塔一柱擎天，凯旋门见证了历史的沧桑。意大利比萨斜塔、圣彼得大教堂重复着创世纪的序言。还有巴黎春天购物广场、罗马假日广场、海神喷泉广场，总有一个场景勾勒你心目中的欧陆场景！游玩景点世界之窗&mdash;美洲区尼亚加拉大瀑布的流水声，将人们牵引到现代文明与古老文化交相辉映的美洲。全球首座实景拍摄悬空式4D球幕影院《飞跃美利坚》&mdash;&mdash;实现人类飞翔之梦，感受飞翔和空中飘逸的惊险。还有纽约曼哈顿林立的高楼、美国国会大厦、白宫、华盛顿纪念碑、总统山、自由女神&hellip;&hellip;游玩景点世界之窗&mdash;非洲区 埃及――尼罗河之水喂养大的古老文明。金字塔，人类智慧的结晶；斯芬克斯石像，静穆地守护这片神奇的大地，留下了亘古难解之谜；阿布辛伯勒神庙讲述着一代王朝的兴衰，蠕动的驼峰让广袤的非洲大陆不再平静&hellip;&hellip;游玩景点世界之窗&mdash;亚洲区 日本皇居――桂离宫演绎皇室的奢华。传统的茶道、花道展演着古老的扶桑情韵。金碧辉煌的缅甸仰光大金塔，无不讲叙着王朝的兴盛。印度，一个被故事浸染的国度，摩多哈拉圣井让我们洗净灵魂的尘埃；泰姬玛哈尔陵让世人目睹爱情的绝唱，世界一奇观。东南亚水乡营造出浓郁的亚洲风情让我们品尝丰收的成果、聆听生命的歌唱。深圳世界之窗温馨提示儿童需成人携带注意儿童的安全。注意保持景区整洁勿随意丢垃圾。",
+          "proName": "广东",
+          "price": "170.00",
+          "areaName": "南山区",
+          "address": "深圳南山区华侨城深南大道9037号",
+          "name": "深圳世界之窗",
+          "attention": "①门票当天有效，出园需入园，需再次购票②为保证取票、入园顺利，预订时请务必填写真实姓名、手机号码等信息③另付费：阿尔卑斯滑雪场、景区内电瓶车等。④日场票每人每天取票限定5张(需实名制），如果超过5张票请多人预订；请正确填写姓名，取票时请出示有效身份证，否则景区有权不予出票；⑤深圳世界之窗成人票（8.8-8.9）活动特惠票型，每个订单限量3张。【优惠】票型：兑票时间：09：00&mdash;16:00。⑦具体门票包含内容请见该门票票型内的包含项目。活动提醒1.6月6日至9月6日，深圳世界之窗国际啤酒节震撼来袭！①深圳最具特色、最凝聚人气的主题娱乐品牌活动&mdash;&mdash;世界之窗国际啤酒节！②大型当代都市舞台游记《一路阳光》③周六、日晚上深圳唯一的大型璀璨烟花汇演。2.a.【深圳吃喝玩乐】在线旅游QQ咨询群：433800875b. 扫描下方二维码，实时关注【深圳吃住行】最新景区资讯动态，或添加微信公众号：szc17u c、（以上QQ群以及微信公众号 为驴友自发旅游经验分享群，不代表同程网官方）",
+          "coupon": "A.免票政策：儿童身高&lt;1.2米免费；70周岁以上老年人凭身份证、军残1-6级免票；残疾人1-2级免票。B.优惠政策：1.2米&le;儿童身高&le;1.5米、65周岁&le;年龄&le;69周岁之间老人身份证、残疾2级凭残疾证、现役军人凭军官证购景区优惠票。 备注：（夜场票1.2米以上全票，无优惠票种）",
+          "opentime": "平日开放时间：09：00—22：30（兑票时间：09：00—18：00）夜场开放时间：19：00—22：30（兑票时间：18：30—20：00）【特惠】票型：兑票时间：09：30—16:00",
+          "picList": [
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/PTM3cwj45i.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/PTM3cwj45i_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/NnfkUJwWfC.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/NnfkUJwWfC_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/Nnfl7yT0Qw.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/Nnfl7yT0Qw_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/Nnflh9h5lK.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/Nnflh9h5lK_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MmJfngg3p6.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MmJfngg3p6_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MmJfvgqUU0.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MmJfvgqUU0_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MmJffKJRXa.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MmJffKJRXa_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/001/8e/b9/rBANC1pe82aAG6YSAAMCjXGyjsk725.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/01/001/8e/b9/rBANC1pe82aAG6YSAAMCjXGyjsk725_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/001/ff/04/rBLkBlsaAa2AZ2HsAAL5tmTHJlU647.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/01/001/ff/04/rBLkBlsaAa2AZ2HsAAL5tmTHJlU647_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/000/8e/cf/rBANDFpe81-AHEWWAAMQfGTX59c400.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/000/8e/cf/rBANDFpe81-AHEWWAAMQfGTX59c400_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/001/8f/2e/rBLkBVpe81yAbYSXAAMKKueO6wY774.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/01/001/8f/2e/rBLkBVpe81yAbYSXAAMKKueO6wY774_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MmJfLpA6xq.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MmJfLpA6xq_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MmJfCuDt1C.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MmJfCuDt1C_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MmJf89gdag.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MmJf89gdag_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/i/ori/MmJeYjxNDy.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/i/ori/MmJeYjxNDy_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/04/002/b8/e5/rBTJU12gMrCAXsOCAAHt1ZU5LUo450.png",
+              "picUrlSmall": "http://pic5.40017.cn/04/002/b8/e5/rBTJU12gMrCAXsOCAAHt1ZU5LUo450_130x130_00.png"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/04/002/b8/e4/rBTJU12gMpGAT7iwAAGG31-2qy8861.png",
+              "picUrlSmall": "http://pic5.40017.cn/04/002/b8/e4/rBTJU12gMpGAT7iwAAGG31-2qy8861_130x130_00.png"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/04/001/3f/cc/rBTJU12b8CaAJOlQAAHRPrfrflI517.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/04/001/3f/cc/rBTJU12b8CaAJOlQAAHRPrfrflI517_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/04/002/3f/f1/rBTJUl2b74GAPTc1AAImRrSKZM0898.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/04/002/3f/f1/rBTJUl2b74GAPTc1AAImRrSKZM0898_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/04/000/3f/39/rBTJU12b732AefjWAAH95bsrXzc026.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/04/000/3f/39/rBTJU12b732AefjWAAH95bsrXzc026_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/04/001/45/8b/rBTJUl2QL4CAKH5oAAJK_0hQaJw589.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/04/001/45/8b/rBTJUl2QL4CAKH5oAAJK_0hQaJw589_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/04/001/44/be/rBTJU12QL32ARV-SAAHyJ8OSs7o930.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/04/001/44/be/rBTJU12QL32ARV-SAAHyJ8OSs7o930_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/b0/ad/rBANB1z0lsqASau8AAH7gzYWbhc670.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/b0/ad/rBANB1z0lsqASau8AAH7gzYWbhc670_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/49/21/rB5oQFzssqOAKiBEAAE0Fh-xUAw038.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/49/21/rB5oQFzssqOAKiBEAAE0Fh-xUAw038_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/49/16/rB5oQFzsspiAOpx7AAGkvFTxDeU615.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/49/16/rB5oQFzsspiAOpx7AAGkvFTxDeU615_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/49/06/rB5oQFzssoiADSz6AAGMtPeCrQ0060.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/49/06/rB5oQFzssoiADSz6AAGMtPeCrQ0060_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/dd/bf/rBANB1zssnyASdwYAAFE4wYnV3g274.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/dd/bf/rBANB1zssnyASdwYAAFE4wYnV3g274_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/48/e7/rB5oQFzssmiAfENjAAGxMijC7Wo528.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/48/e7/rB5oQFzssmiAfENjAAGxMijC7Wo528_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/48/d5/rB5oQFzsslWALOs1AAEQiYwwxVI934.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/48/d5/rB5oQFzsslWALOs1AAEQiYwwxVI934_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/48/cb/rB5oQFzsskuABg27AAEJ4w_qUQ0528.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/48/cb/rB5oQFzsskuABg27AAEJ4w_qUQ0528_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/48/c4/rB5oQFzsskSAMCV1AAIH9jm4MGc722.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/48/c4/rB5oQFzsskSAMCV1AAIH9jm4MGc722_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/dd/81/rBANB1zssjuAWvJWAAFBRnY-O4c418.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/dd/81/rBANB1zssjuAWvJWAAFBRnY-O4c418_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/48/b6/rB5oQFzssjSAQOAoAAGeOK9mZdE745.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/48/b6/rB5oQFzssjSAQOAoAAGeOK9mZdE745_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/48/ae/rB5oQFzssiuACg_UAAD2fJcqm1g389.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/48/ae/rB5oQFzssiuACg_UAAD2fJcqm1g389_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/48/a2/rB5oQFzssiCAdU7MAAKdydQ8434030.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/48/a2/rB5oQFzssiCAdU7MAAKdydQ8434030_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/48/89/rB5oQFzssgeABMf1AAGpOKIFuDo429.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/48/89/rB5oQFzssgeABMf1AAGpOKIFuDo429_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/48/80/rB5oQFzssf-Aevg4AAI5Y1C00Es416.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/48/80/rB5oQFzssf-Aevg4AAI5Y1C00Es416_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/2c/09/rB5oQFxg0o-AISX9AAE1sWL3rEU545.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/2c/09/rB5oQFxg0o-AISX9AAE1sWL3rEU545_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/0d/1f/rB5oQFw8W3uAFvGQAAGptmfAwoA855.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/0d/1f/rB5oQFw8W3uAFvGQAAGptmfAwoA855_130x130_00.JPG"
+            }
+          ]
+        },
+        {
+          "summary": "深港都市区里的一颗璀璨的绿色明珠",
+          "proId": "6",
+          "location": {
+            "lon": "113.97735234",
+            "lat": "22.60304461"
+          },
+          "cityId": "91",
+          "cityName": "深圳",
+          "star": "4A",
+          "priceList": [
+            {
+              "entityList": [
+                {
+                  "TicketName": "成人票（野生动物园、海洋天地、熊猫庄园）",
+                  "Amount": "220",
+                  "EndDate": "2015-08-30",
+                  "BeginDate": "2015-07-04",
+                  "PriceName": "7.4-8.30",
+                  "AmountAdvice": "210",
+                  "TicketTypeId": 116637,
+                  "PriceId": 219337,
+                  "PriceInSceneryId": 3714
+                },
+                {
+                  "TicketName": "成人票（野生动物园、海洋天地、熊猫庄园）",
+                  "Amount": "220",
+                  "EndDate": "2015-08-30",
+                  "BeginDate": "2015-07-04",
+                  "PriceName": "7.4-8.30",
+                  "AmountAdvice": "210",
+                  "TicketTypeId": 116682,
+                  "PriceId": 219334,
+                  "PriceInSceneryId": 3714
+                },
+                {
+                  "TicketName": "深圳野生动物园成人票",
+                  "Amount": "220",
+                  "EndDate": "2015-08-30",
+                  "BeginDate": "2015-07-31",
+                  "PriceName": "7.31-8.30",
+                  "AmountAdvice": "210",
+                  "TicketTypeId": 182047,
+                  "PriceId": 235551,
+                  "PriceInSceneryId": 3714
+                }
+              ],
+              "type": "成人票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "深圳野生动物园儿童票",
+                  "Amount": "120",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-01-01",
+                  "PriceName": "",
+                  "AmountAdvice": "110",
+                  "TicketTypeId": 182062,
+                  "PriceId": 234803,
+                  "PriceInSceneryId": 3714
+                }
+              ],
+              "type": "儿童票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "深圳野生动物园老年票",
+                  "Amount": "120",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-01-01",
+                  "PriceName": "",
+                  "AmountAdvice": "110",
+                  "TicketTypeId": 182065,
+                  "PriceId": 234806,
+                  "PriceInSceneryId": 3714
+                }
+              ],
+              "type": "老年票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "儿童/老人票",
+                  "Amount": "120",
+                  "EndDate": "2015-08-30",
+                  "BeginDate": "2015-07-02",
+                  "PriceName": "7.2-8.30",
+                  "AmountAdvice": "110",
+                  "TicketTypeId": 43080,
+                  "PriceId": 219339,
+                  "PriceInSceneryId": 3714
+                },
+                {
+                  "TicketName": "儿童/老人票",
+                  "Amount": "120",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-07-02",
+                  "PriceName": "7.2-8.30",
+                  "AmountAdvice": "110",
+                  "TicketTypeId": 64727,
+                  "PriceId": 219335,
+                  "PriceInSceneryId": 3714
+                }
+              ],
+              "type": "优待票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "特惠狂欢！野生动物园或欢乐谷或锦绣中华门票+住豪派特华美达广场酒店 Ramada Plaza",
+                  "Amount": "1098",
+                  "AmountAdvice": "462",
+                  "TicketTypeId": 0,
+                  "PriceInSceneryId": 0,
+                  "PriceId": 0
+                },
+                {
+                  "TicketName": "【暑期超级特惠】深圳东华假日酒店（holiday in）酒店+自选深圳景点",
+                  "Amount": "1380",
+                  "AmountAdvice": "259",
+                  "TicketTypeId": 0,
+                  "PriceInSceneryId": 0,
+                  "PriceId": 0
+                }
+              ],
+              "type": "酒店+景点"
+            }
+          ],
+          "areaId": "3755",
+          "ct": "2020-05-06 21:54:38.468",
+          "id": "3714",
+          "content": " 下午最佳游玩时间(15:00以后）：海洋天地 -&gt; 百兽盛会 -&gt; 熊猫庄园 -&gt; 珍稀鸟街 -&gt;猛兽谷 -&gt;游乐天地 -&gt; 动物学科普馆 -&gt; 动物宝宝乐园 -&gt;湿地园 -&gt; 出口（以上线路仅供参考）",
+          "proName": "广东",
+          "price": "210.00",
+          "areaName": "南山区",
+          "address": "深圳市南山区西丽湖路",
+          "name": "深圳野生动物园",
+          "attention": "A、门票包含：园内参观和观看动物表演(具体表演时间参照景区每日公告，如遇大型法定节假日部门表演可能会收费)。乌克兰国际马戏节期间（2015年7月4日至8月30日），马戏馆为控制人流，将收取10元/人的费用。B、另付费项目：园内游览车、游乐天地儿童游乐设施等。C、具体门票包含内容请见该门票票型内的包含项目。D、门票当天有效，出园需入园，需再次购票；为保证取票、入园顺利，预订时请务必填写真实姓名、手机号码等信息。E、游客游玩景区时，按照景区指引，注意自身安全。活动提醒1.a.【深圳吃喝玩乐】在线旅游QQ咨询群：433800875b. 扫描下方二维码，实时关注【深圳吃住行】最新景区资讯动态，或添加微信公众号：szc17uc、（以上QQ群以及微信公众号 为驴友自发旅游经验分享群，不代表同程网官方）",
+          "coupon": "A.免票政策：儿童身高&lt;1.2米、老人70周岁以上（含70周岁）持本人身份证免大门票。B.优惠政策：1.2米&le;儿童身高&lt;1.5米、65周岁&le;年龄&le;69周岁之间老人持本人身份证至景区购优惠票。",
+          "opentime": "兑票时间：9:00-14:00营业时间：8:30-18:00",
+          "picList": [
+            {
+              "picUrl": "http://pic5.40017.cn/01/001/52/d1/rBANC1jsR2yAFQY1AAQAAHa1CPA056.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/01/001/52/d1/rBANC1jsR2yAFQY1AAQAAHa1CPA056_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/14/q8jl70.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/14/q8jl70_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/14/4vgOf0.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/14/4vgOf0_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/14/LJUVmi.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/14/LJUVmi_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/jta1F4.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/jta1F4_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/HIkc0m.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/HIkc0m_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/mjobIp.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/mjobIp_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/dYGqZp.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/dYGqZp_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/CcgElQ.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/CcgElQ_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/pXpfy7.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/pXpfy7_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/LGfAMN.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/LGfAMN_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/HEl2Qf.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/HEl2Qf_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/4HtpQi.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/4HtpQi_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/Lh7n65.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/Lh7n65_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/m1sYm7.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/m1sYm7_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/YbGYuW.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/YbGYuW_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/dDZ8PG.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/dDZ8PG_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/rwWpGR.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/rwWpGR_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/ilUqTW.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/ilUqTW_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/vkxqSI.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/vkxqSI_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/0BQc4y.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/0BQc4y_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/sV9Vo9.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/sV9Vo9_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/HJgjKd.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/HJgjKd_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/2Wi2eU.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/2Wi2eU_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/cYUdGE.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/cYUdGE_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/knxf4N.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/knxf4N_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/iGbMnK.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/iGbMnK_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/mNlEG4.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/mNlEG4_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/M8s3be.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/03/01/11/M8s3be_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/65/8c/rBANB1x9-nCAZ8rHAAGQMODMsjA953.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/65/8c/rBANB1x9-nCAZ8rHAAGQMODMsjA953_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/dd/63/rB5oQFx9-nCAJxZEAAGPbJWkmKg005.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/dd/63/rB5oQFx9-nCAJxZEAAGPbJWkmKg005_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/dd/63/rB5oQFx9-nCAb8XEAAKrcIw6Oog671.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/dd/63/rB5oQFx9-nCAb8XEAAKrcIw6Oog671_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/dd/63/rB5oQFx9-m-AcprcAAJHvNG8qV0103.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/dd/63/rB5oQFx9-m-AcprcAAJHvNG8qV0103_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/dd/63/rB5oQFx9-m-ALPOgAAGzrfy1Sns806.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/dd/63/rB5oQFx9-m-ALPOgAAGzrfy1Sns806_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/dd/63/rB5oQFx9-m-AA08TAAJ3TUjae1A330.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/dd/63/rB5oQFx9-m-AA08TAAJ3TUjae1A330_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/65/8c/rBANB1x9-m6AG84fAAC6mSo3HbQ049.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/65/8c/rBANB1x9-m6AG84fAAC6mSo3HbQ049_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/65/8c/rBANB1x9-m2AHU4mAAM5qRxIzxU890.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/65/8c/rBANB1x9-m2AHU4mAAM5qRxIzxU890_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/dd/63/rB5oQFx9-m2AeZKfAAG-0Ltpp8M852.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/dd/63/rB5oQFx9-m2AeZKfAAG-0Ltpp8M852_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/65/8c/rBANB1x9-myAJQrBAAIeAQX9eKw153.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/65/8c/rBANB1x9-myAJQrBAAIeAQX9eKw153_130x130_00.jpg"
+            }
+          ]
+        },
+        {
+          "proId": "6",
+          "summary": "深圳弘法寺位于深圳仙湖植物园内，深圳弘法寺地处深圳市东郊——深圳弘法寺有深圳“绿色心肺”之称的梧桐山麓。深圳弘法寺背靠陡峭叠翠的山崖，前临涟漪万顷的仙湖。新兴的深圳弘法寺由于地处我国改革开放的前沿陈地，毗邻港澳，面向东南亚，因此，赵朴初及中国佛协其他领导寄予了深切的厚望:把深圳弘法寺辨成中国一流的佛教文化寺院，体现政府宗教信仰自由政策的重要窗口，深圳弘法寺并使之成为同海外佛教界联谊的纽带。",
+          "cityId": "91",
+          "location": {
+            "lon": "114.17629572",
+            "lat": "22.57404352"
+          },
+          "cityName": "深圳",
+          "priceList": [],
+          "ct": "2015-08-24 00:32:44.156",
+          "areaId": "869",
+          "id": "19984",
+          "proName": "广东",
+          "areaName": "深圳市区",
+          "address": "莲塘仙湖路160号仙湖植物园内",
+          "name": "深圳弘法寺",
+          "picList": []
+        },
+        {
+          "summary": "农垦文化点缀成远离都市喧嚣的田园风景。",
+          "proId": "6",
+          "location": {
+            "lon": "113.90701463",
+            "lat": "22.50646325"
+          },
+          "cityId": "91",
+          "cityName": "深圳",
+          "star": "4A",
+          "priceList": [
+            {
+              "entityList": [
+                {
+                  "TicketName": "深圳青青世界成人票",
+                  "Amount": "60",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2014-09-01",
+                  "PriceName": "周一至周五",
+                  "AmountAdvice": "51",
+                  "TicketTypeId": 73769,
+                  "PriceId": 103069,
+                  "PriceInSceneryId": 3696
+                },
+                {
+                  "TicketName": "深圳青青世界成人票(休闲垂钓套票)",
+                  "Amount": "120",
+                  "EndDate": "2015-12-31",
+                  "BeginDate": "2015-03-10",
+                  "PriceName": "",
+                  "AmountAdvice": "85",
+                  "TicketTypeId": 127791,
+                  "PriceId": 162699,
+                  "PriceInSceneryId": 3696
+                }
+              ],
+              "type": "成人票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "【暑期超级特惠】深圳东华假日酒店（holiday in）酒店+自选深圳景点",
+                  "Amount": "1380",
+                  "AmountAdvice": "259",
+                  "TicketTypeId": 0,
+                  "PriceInSceneryId": 0,
+                  "PriceId": 0
+                },
+                {
+                  "TicketName": "享受森林带来的深呼吸青青世界门票+金百合/小名人/雅商会馆/威尼斯/维也纳/中南海悦大酒店6选1",
+                  "Amount": "488",
+                  "AmountAdvice": "318",
+                  "TicketTypeId": 0,
+                  "PriceInSceneryId": 0,
+                  "PriceId": 0
+                }
+              ],
+              "type": "酒店+景点"
+            }
+          ],
+          "areaId": "3755",
+          "ct": "2020-05-06 21:54:38.368",
+          "id": "3696",
+          "content": "在花卉超市选购品种繁多花卉、化肥、花具，参观室内庭院、阳台园艺的经典布置，还可以与园艺师交流花卉养护的知识和心得，装扮美丽的家园 。",
+          "proName": "广东",
+          "price": "51.00",
+          "areaName": "南山区",
+          "address": "广东省深圳市南山区月亮湾青青路1号",
+          "name": "深圳青青世界",
+          "attention": "A、预订门票包含：景区游览大门票。B、另付费项目：景区内陶艺制作、垂钓等。C、为保证取票、入园顺利，预订时请务必填写真实姓名、手机号码等信息。D、门票当天有效，出园需入园，需再次购票。E、当天预订当天无法使用。活动提醒1.a.【深圳吃喝玩乐】在线旅游QQ咨询群：433800875b. 扫描下方二维码，实时关注【深圳吃住行】最新景区资讯动态，或添加微信公众号：szc17uc、（以上QQ群以及微信公众号 为驴友自发旅游经验分享群，不代表同程网官方）",
+          "coupon": "A.免票政策：儿童身高1.2米以下免费（免票儿童需由成人陪同入园，每位购票成人最多只可携带1名免票儿童入园）；70周岁（含70周岁）以上老年人持有效证件免费。B.优惠政策：儿童身高1.2&mdash;1.5米、65至69周岁之间老人凭有效证件购景区优惠票（上述优惠政策，需到景区自行购买）。",
+          "opentime": "周一至周五：8:30-17:30；周六、周日、法定节假日：8:30-18:00",
+          "picList": [
+            {
+              "picUrl": "http://pic5.40017.cn/01/000/8f/61/rBLkBlnDJlCAHJydAAMG41DUtWo975.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/01/000/8f/61/rBLkBlnDJlCAHJydAAMG41DUtWo975_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/HC0ce3.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/HC0ce3_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/000/8f/3a/rBANDFnDJkuAHrrUAAL_XwcpAnU808.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/000/8f/3a/rBANDFnDJkuAHrrUAAL_XwcpAnU808_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/001/8f/3b/rBLkCVnDJkmALIgSAAMQGZM1tTY767.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/001/8f/3b/rBLkCVnDJkmALIgSAAMQGZM1tTY767_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/000/8e/ec/rBANC1nDJkeAVqh-AALua7vxnWs788.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/01/000/8e/ec/rBANC1nDJkeAVqh-AALua7vxnWs788_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/001/8f/61/rBLkBVnDJkaAcz6cAAL6XPBL244829.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/01/001/8f/61/rBLkBVnDJkaAcz6cAAL6XPBL244829_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/001/8f/3a/rBANDFnDJkSAXzOLAAMULrXozyc774.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/001/8f/3a/rBANDFnDJkSAXzOLAAMULrXozyc774_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/001/8e/ec/rBANC1nDJkKAEst-AAMefD41Y7Q433.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/01/001/8e/ec/rBANC1nDJkKAEst-AAMefD41Y7Q433_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/000/8f/61/rBLkBlnDJkCAE0WEAAMJPBJ-TMU159.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/01/000/8f/61/rBLkBlnDJkCAE0WEAAMJPBJ-TMU159_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/000/8e/ec/rBANC1nDJj6ALRPoAAMaleXDGJo653.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/01/000/8e/ec/rBANC1nDJj6ALRPoAAMaleXDGJo653_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/000/8f/3a/rBANDFnDJkyAbrB-AAMLeCU5GyY788.JPG",
+              "picUrlSmall": "http://pic5.40017.cn/02/000/8f/3a/rBANDFnDJkyAbrB-AAMLeCU5GyY788_130x130_00.JPG"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/AeQmBg.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/AeQmBg_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/lSOwS7.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/lSOwS7_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/5wZEys.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/5wZEys_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/6Poudu.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/6Poudu_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/RgasD3.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/RgasD3_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/aoUGSQ.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/aoUGSQ_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/cyU3uh.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/cyU3uh_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/NZGCTE.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/NZGCTE_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/hGFRFk.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/hGFRFk_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/XcTHiD.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/XcTHiD_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/wGoyxM.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/wGoyxM_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/QePLxZ.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/QePLxZ_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/ddErwD.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/ddErwD_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/TzIbDY.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/TzIbDY_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/16yxOO.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/16yxOO_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/iQgQLq.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/iQgQLq_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/5fC7qB.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/5fC7qB_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/8O3WOX.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/8O3WOX_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/4Exqaw.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/4Exqaw_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/TXGTXo.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/TXGTXo_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/swmfet.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/swmfet_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/U8OOX3.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/U8OOX3_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/EQAdIz.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/EQAdIz_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/KdZLVv.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/KdZLVv_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/shzwQ3.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/shzwQ3_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/ZDut6y.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/ZDut6y_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/ocSeDp.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/ocSeDp_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/aNgllb.jpg",
+              "picUrlSmall": "http://pic4.40017.cn/scenery/destination/2017/02/28/13/aNgllb_130x130_00.jpg"
+            }
+          ]
+        },
+        {
+          "proId": "6",
+          "summary": "深圳国际展览中心成立于1988年，1994年国展中心由岁宝集团独资收购，是一个集展览、旅游、广告工程、陈列馆和传播煤介于一体的现代化大型企业。 展览中心内拥有8800平方米展览厅、5100平方米多功能会议厅、6000平方米的室外展场，其设计和主要设备均由德国引进，同时汇萃了一批高素质的展览专业人员。",
+          "cityId": "91",
+          "location": {
+            "lon": "114.09998012",
+            "lat": "22.56830414"
+          },
+          "cityName": "深圳",
+          "priceList": [],
+          "ct": "2015-08-24 00:32:45.812",
+          "areaId": "869",
+          "id": "21862",
+          "proName": "广东",
+          "areaName": "深圳市区",
+          "address": "上步北路1026号深圳国际展览中心",
+          "name": "深圳国际展览中心",
+          "picList": []
+        },
+        {
+          "proId": "6",
+          "summary": "国贸大厦占地面积2万平方米，建筑面积10万平方米。国贸大厦总体以方形塔楼为主体，楼高53层（地下3层）160米，第5-23层及25-43层为办公楼标准层，第24层为避难层，第49层为旋转餐厅，第50层屋面设有直径26米的的直升机停机坪。",
+          "cityId": "91",
+          "location": {
+            "lon": "114.12558345",
+            "lat": "22.54731778"
+          },
+          "cityName": "深圳",
+          "priceList": [],
+          "ct": "2015-08-24 00:32:46.875",
+          "areaId": "869",
+          "id": "21890",
+          "proName": "广东",
+          "areaName": "深圳市区",
+          "address": "人民南路3002",
+          "name": "深圳国际贸易中心",
+          "picList": []
+        },
+        {
+          "proId": "6",
+          "summary": "莲花山公园位于深圳市未来中心区北端。莲花山并不险峻雄伟，海拔只有５３２米。沿着蜿蜓逶迤的山中小径慢慢而行，游客们既可享受登山的乐趣，又没有登高的疲惫不堪。",
+          "cityId": "91",
+          "location": {
+            "lon": "114.06468793",
+            "lat": "22.55940741"
+          },
+          "cityName": "深圳",
+          "priceList": [],
+          "ct": "2015-08-24 00:32:48.462",
+          "areaId": "869",
+          "id": "4198",
+          "proName": "广东",
+          "areaName": "深圳市区",
+          "address": "是：深圳福田区红荔路（儿童医院对面市中心区）",
+          "name": "莲花山公园",
+          "picList": []
+        },
+        {
+          "proId": "6",
+          "summary": "三门岛（又称沱泞岛）位于深圳东部海域大鹏湾与大亚湾的汇合处，三门岛是中国目前保存最完好的自然生态海岛之一。三门岛面积约5平方公里，海岸线长13公里，距香港海域 8.7海里，从深圳、广州、东莞、惠州出发到达三门岛码头只需2个小时。\r\n",
+          "cityId": "91",
+          "location": {
+            "lon": "114.15103862",
+            "lat": "22.28926267"
+          },
+          "cityName": "深圳",
+          "priceList": [],
+          "ct": "2015-08-24 00:32:48.550",
+          "areaId": "869",
+          "id": "17056",
+          "proName": "广东",
+          "areaName": "深圳市区",
+          "address": "深圳大亚湾与大鹏湾的交汇处",
+          "name": "三门岛",
+          "picList": []
+        },
+        {
+          "proId": "6",
+          "summary": "深圳仙湖植物园位于深圳市东郊，面积约590公顷。这里四面环山，地形复杂多样，土壤深厚肥沃，园内仙湖碧波荡漾。一年四季绿树葱郁，原生植被保存完好，是众多植物生长发育的最佳境地。该园目前已建有棕榈植物、苏铁(铁树)、竹类、水生植物、荫生植物、裸子植物、稀有濒危植物、沙漠植物、盆景植物、孢子植物、百果园及药用植物等12个植物专类园，保存植物3000多种，形成了自然风光与园林艺术相结合，植物多样性与科学内涵融为一体的风景植物园。",
+          "cityId": "91",
+          "location": {
+            "lon": "114.17533765",
+            "lat": "22.57401225"
+          },
+          "cityName": "深圳",
+          "priceList": [],
+          "ct": "2015-08-24 00:32:48.599",
+          "areaId": "869",
+          "id": "3655",
+          "proName": "广东",
+          "areaName": "深圳市区",
+          "address": "位于深圳市东北郊，东倚深圳第一高峰梧桐山，西临深圳水库。\r\n邮编：518004 \r\n电话：（0755）25738430",
+          "name": "仙湖植物园",
+          "picList": []
+        },
+        {
+          "proId": "6",
+          "summary": "深圳市东湖公园原名“水库公园”，位于深圳市东部，东连梧桐山，西临沿河路，南接深沙公路，北靠爱国路，始建于1961年，1966年正式向社会开放，1984年10月，经深圳市政府第四十二次会议研究决定，正式改名为“深圳市东湖公园”，1991年4月，列为广东省省级风景名胜区，2001年5月，被评为首批“园林式、花园式”达标单位。",
+          "cityId": "91",
+          "location": {
+            "lon": "114.15017647",
+            "lat": "22.57309813"
+          },
+          "cityName": "深圳",
+          "priceList": [],
+          "ct": "2015-08-24 00:32:49.676",
+          "areaId": "869",
+          "id": "19518",
+          "proName": "广东",
+          "areaName": "深圳市区",
+          "address": "地 址： 深圳市罗湖区东门北路",
+          "name": "深圳东湖公园",
+          "picList": []
+        },
+        {
+          "summary": "瑞雪丰年赏花灯，金猴闹春过大年",
+          "proId": "6",
+          "location": {
+            "lon": "113.99710791",
+            "lat": "22.52952747"
+          },
+          "cityId": "91",
+          "cityName": "深圳",
+          "priceList": [
+            {
+              "entityList": [
+                {
+                  "TicketName": "深圳欢乐灯会成人票",
+                  "Amount": "80",
+                  "EndDate": "2016-02-24",
+                  "BeginDate": "2016-02-07",
+                  "PriceName": "2.7-2.24",
+                  "AmountAdvice": "75",
+                  "TicketTypeId": 233271,
+                  "PriceId": 298345,
+                  "PriceInSceneryId": 227241
+                },
+                {
+                  "TicketName": "深圳欢乐灯会成人票",
+                  "Amount": "80",
+                  "EndDate": "2016-02-24",
+                  "BeginDate": "2016-02-07",
+                  "PriceName": "2.7-2.24",
+                  "AmountAdvice": "75",
+                  "TicketTypeId": 233273,
+                  "PriceId": 298348,
+                  "PriceInSceneryId": 227241
+                }
+              ],
+              "type": "成人票"
+            },
+            {
+              "entityList": [
+                {
+                  "TicketName": "住深圳花园格兰云天大酒店1晚，自选深圳欢乐谷，深圳世界之窗日场，欢乐灯会成人票2张",
+                  "Amount": "1188",
+                  "AmountAdvice": "622",
+                  "TicketTypeId": 0,
+                  "PriceInSceneryId": 0,
+                  "PriceId": 0
+                },
+                {
+                  "TicketName": "住深圳圣淘沙酒店（翡翠店）1晚，自选欢乐谷，世界之窗，欢乐干线，欢乐灯会成人票2张！",
+                  "Amount": "1258",
+                  "AmountAdvice": "656",
+                  "TicketTypeId": 0,
+                  "PriceInSceneryId": 0,
+                  "PriceId": 0
+                },
+                {
+                  "TicketName": "【多景点自选】住深圳城市客栈（深圳欢乐谷店），（自选）深圳三大主题乐园之一、欢乐灯会成人票2张",
+                  "Amount": "598",
+                  "AmountAdvice": "339",
+                  "TicketTypeId": 0,
+                  "PriceInSceneryId": 0,
+                  "PriceId": 0
+                }
+              ],
+              "type": "酒店+景点"
+            }
+          ],
+          "areaId": "3755",
+          "ct": "2020-05-06 21:54:39.246",
+          "content": "八大主题景区：全新打造金猴闹新春、探寻侏罗纪、璀璨狂欢夜、浪漫冰雪情、时尚光影秀、欢乐动漫趴、沙滩亲子游、台湾特色美食为主题的八大景区，超过50余组大型主题彩灯集观赏、参与、互动于一体，给观众带来全方位体验。坐上欢乐的小火车，感觉雪花的浪漫和清爽；穿过海底隧道、领略9D电影的震撼；在侏罗纪探寻宝藏；在涂鸦墙上留下甜蜜的回忆&hellip;&hellip;还有更多彩灯等你来探秘哟~绚丽彩灯，美食飘香，30多家原汁原味的台湾小吃摊位，让你赏美景品美食，吃货们的春天来了~深圳欢乐灯会温馨提示爱护环境，做文明游客。",
+          "id": "227241",
+          "proName": "广东",
+          "price": "75.00",
+          "areaName": "南山区",
+          "address": "广东省深圳市南山区白石路东8号欢乐海岸椰林沙滩",
+          "name": "深圳欢乐灯会",
+          "attention": "①另消费项目：园内美食等二次消费项目。②门票当天有效，出园需入园，请再次购票。③为保证取票、入园顺利，预订时请务必填写真实姓名、手机号码等信息。",
+          "coupon": "A.免票政策：儿童身高1.2（不含）米以下免票。B.优惠政策：儿童身高1.2-1.5（不含）米、70周岁以上老人（凭老年证或身份证）购景区优惠票（上述优惠政策请以景区实际要求为准，至景区自行购买）。",
+          "opentime": "17:00-22:30",
+          "picList": [
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/5e/dd/rBANB1x97LCAHCPqAAH6IZDaMHs499.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/5e/dd/rBANB1x97LCAHCPqAAH6IZDaMHs499_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/d6/b7/rB5oQFx97LCATBuoAAIZVZxyDIQ958.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/d6/b7/rB5oQFx97LCATBuoAAIZVZxyDIQ958_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/5e/dd/rBANB1x97LCASPBoAAHW_Z8svHo550.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/5e/dd/rBANB1x97LCASPBoAAHW_Z8svHo550_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/5e/dd/rBANB1x97LCASLiFAAMFwZTL6X0292.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/5e/dd/rBANB1x97LCASLiFAAMFwZTL6X0292_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/5e/dd/rBANB1x97LCAHrqdAAQNXlDM3Dk021.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/5e/dd/rBANB1x97LCAHrqdAAQNXlDM3Dk021_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/5e/dd/rBANB1x97LCAOZvcAAJm1KOHZNY513.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/5e/dd/rBANB1x97LCAOZvcAAJm1KOHZNY513_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/5e/dd/rBANB1x97LCAHsLEAAImAXLFbH4215.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/5e/dd/rBANB1x97LCAHsLEAAImAXLFbH4215_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/5e/dd/rBANB1x97K-AJMaZAAIeCy6mqG4577.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/5e/dd/rBANB1x97K-AJMaZAAIeCy6mqG4577_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/d6/b7/rB5oQFx97K-ARrPNAAK5Zj3-r0c257.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/d6/b7/rB5oQFx97K-ARrPNAAK5Zj3-r0c257_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/5e/dd/rBANB1x97K-AIn98AAKy09_Ol_s375.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/5e/dd/rBANB1x97K-AIn98AAKy09_Ol_s375_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/d6/b7/rB5oQFx97K-Ac8mpAAJk3lEngiU576.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/d6/b7/rB5oQFx97K-Ac8mpAAJk3lEngiU576_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/03/000/5e/dd/rBANB1x97K-AG6U8AAIjEvCOvaY392.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/03/000/5e/dd/rBANB1x97K-AG6U8AAIjEvCOvaY392_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/001/0b/a9/rBLkCFoo8h2AEbglAAMTZ4KntKE397.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/001/0b/a9/rBLkCFoo8h2AEbglAAMTZ4KntKE397_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/000/0b/a8/rBANDFoo8huAWt4bAAMLEGolEQ4962.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/000/0b/a8/rBANDFoo8huAWt4bAAMLEGolEQ4962_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/02/001/0b/a9/rBLkCVoo8hqAdEVGAAMVuP52Zr0734.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/02/001/0b/a9/rBLkCVoo8hqAdEVGAAMVuP52Zr0734_130x130_00.jpg"
+            },
+            {
+              "picUrl": "http://pic5.40017.cn/01/001/0b/cf/rBLkBloo8hmADKmcAAMbsM2T-eY640.jpg",
+              "picUrlSmall": "http://pic5.40017.cn/01/001/0b/cf/rBLkBloo8hmADKmcAAMbsM2T-eY640_130x130_00.jpg"
+            }
+          ]
+        },
+        {
+          "proId": "6",
+          "summary": "中国娱乐城，座落在深南大道西段香蜜湖度",
+          "cityId": "91",
+          "location": {
+            "lon": "0.00000000",
+            "lat": "0.00000000"
+          },
+          "cityName": "深圳",
+          "priceList": [],
+          "ct": "2016-02-15 18:31:34.433",
+          "areaId": "869",
+          "id": "3723",
+          "proName": "广东",
+          "areaName": "深圳市区",
+          "address": "电话：(86755)370-8988,370-5061",
+          "name": "中国娱乐城",
+          "picList": []
+        },
+        {
+          "proId": "6",
+          "cityId": "91",
+          "cityName": "深圳",
+          "priceList": [],
+          "star": "AAAA景区",
+          "ct": "2018-05-05 12:47:44.699",
+          "areaId": "3749",
+          "content": "",
+          "id": "25965",
+          "proName": "广东",
+          "areaName": "福田区",
+          "name": "深圳体育场",
+          "picList": []
+        }
+      ],
+      "currentPage": 1,
+      "allNum": 161,
+      "maxResult": 20
+    }
+  }
+}

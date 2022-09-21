@@ -21,7 +21,7 @@
 <script>
 import CommonGallery from 'common/gallery/Gallery'
 import FadeAnimation from 'common/fade/FadeAnimation'
-import {ref} from "vue";
+import { ref} from "vue";
 export default {
   name: 'DetailBanner',
   components: {

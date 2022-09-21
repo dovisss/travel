@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class=title>热销推荐</div>
+    <div class=title>热门推荐</div>
     <ul>
       <router-link
         tag="li"
@@ -9,17 +9,19 @@
         :key="item.id"
         :to="'/detail/' + item.id"
       >
-        <img class="item-img" :src="item.imgUrl" />
+        <img class="item-img" :src="item.picList[0].picUrlSmall" />
         <div class="item-info">
-          <p class="item-title">{{item.title}}</p>
-          <p class="item-desc">{{item.desc}}</p>
-          <button class="item-button">查看详情</button>
+          <p>
+            <span class="item-name">{{item.name}}</span>
+            <span class="item-star">&nbsp;{{item.star}}</span>
+          </p>
+          <p class="item-desc"><span class="b">地址：</span>{{item.address}}</p>
+          <p class="item-desc"><span class="b">简介：</span>{{item.summary}}</p>
         </div>
       </router-link>
     </ul>
   </div>
 </template>
-
 <script>
 export default {
   name: 'HomeRecommend',
@@ -48,19 +50,20 @@ export default {
       flex: 1
       padding: .1rem
       min-width: 0
-      .item-title
+      .item-name
         line-height: .54rem
         font-size: .32rem
         ellipsis()
+      .item-star
+        line-height: .54rem
+        font-size: .18rem
+        color: gray
       .item-desc
-        line-height: .4rem
-        color: #ccc
+        font-size: .18rem
+        line-height: .6rem
+        color: #555
         ellipsis()
-      .item-button
-        line-height: .44rem
-        margin-top: .16rem
-        background: #ff9300
-        padding: 0 .2rem
-        border-radius: .06rem
-        color: #fff
+        .b
+          font-weight:bold;
+
 </style>

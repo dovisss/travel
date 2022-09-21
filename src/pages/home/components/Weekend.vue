@@ -8,11 +8,11 @@
         :key="item.id"
       >
         <div class="item-img-wapper">
-          <img class="item-img" :src="item.imgUrl" />
+          <img class="item-img" :src="item.picList[1].picUrl" />
         </div>
         <div class="item-info">
-          <p class="item-title">{{item.title}}</p>
-          <p class="item-desc">{{item.desc}}</p>
+          <p class="item-title">{{item.name}}</p>
+          <p class="item-desc">{{item.summary}}</p>
         </div>
       </li>
     </ul>
@@ -37,7 +37,7 @@ export default {
   .item-img-wapper
     overflow: hidden
     height: 0
-    padding-bottom: 37.09%
+    padding-bottom: 50%
     .item-img
       width: 100%
   .item-info
@@ -48,6 +48,6 @@ export default {
       ellipsis()
     .item-desc
       line-height: .4rem
-      color: #ccc
+      color: #555
       ellipsis()
 </style>

@@ -20,7 +20,10 @@ export default createRouter({
 		}, {
 			path: '/detail/:id',
 			name: 'Detail',
-			component: Detail
+			component: Detail,
+			meta: {
+				keepAlive: false // 不需要被缓存
+			}
 		}
 	],
 

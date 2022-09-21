@@ -2,7 +2,7 @@
   <div>
     <home-header></home-header>
     <home-swiper :list="swiperList"></home-swiper>
-    <home-icons :list="iconList"></home-icons>
+<!--    <home-icons :list="iconList"></home-icons>-->
     <home-recommend :list="recommendList"></home-recommend>
     <home-weekend :list="weekendList"></home-weekend>
   </div>
@@ -40,15 +40,34 @@ export default {
     const city = store.state.city
 
     async function getHomeInfo () {
-      let res = await axios.get('/api/index.json?city=' + city.value) // axios返回的结果是promise对象，所以我们可以用then
+      let res = await axios.get('/sight', {
+        params: {
+          keyword: city,
+          showapi_appid: 1171347,
+          showapi_sign: 'edfc802ac93a4cd88b734cb7cca1105b'
+        }
+      })
       res = res.data
-      if (res.ret && res.data) {
-        const result = res.data
-        data.swiperList = result.swiperList
-        data.iconList = result.iconList
-        data.recommendList = result.recommendList
-        data.weekendList = result.weekendList
+      console.log(res)
+      if (res.showapi_res_code == 0 && res.showapi_res_body) {
+        const resultList = res.showapi_res_body.pagebean.contentlist
+        let recommendList = []
+        for (let item of resultList) {
+          if (item.picList.length > 0) {
+            recommendList.push(item)
+          }
+        }
+        data.swiperList = recommendList.slice(0, 3)
+        data.recommendList = recommendList.slice(0, 3)
+        data.weekendList = recommendList
       }
+
+      // // iconList
+      // let res1 = await axios.get('/api/iconList.json')
+      // if (res1.status == 200 && res1.data) {
+      //   const result = res1.data
+      //   data.iconList = result.iconList
+      // }
     }
 
     onMounted(()=> {
@@ -57,46 +76,6 @@ export default {
 
     return dataToRefs
   }
-  // data () {
-  //   return {
-  //     lastCity: '',
-  //     swiperList: [],
-  //     iconList: [],
-  //     recommendList: [],
-  //     weekendList: []
-  //   }
-  // },
-  // computed: {
-  //   ...mapState(['city'])
-  // },
-  // methods: {
-  //   getHomeInfo () {
-  //     axios.get('/api/index.json?city=' + this.city) // axios返回的结果是promise对象，所以我们可以用then
-  //       .then(this.getHomeInfoSucc)
-  //   },
-  //   getHomeInfoSucc (res) {
-  //     res = res.data
-  //     if (res.ret && res.data) {
-  //       const data = res.data
-  //       this.swiperList = data.swiperList
-  //       this.iconList = data.iconList
-  //       this.recommendList = data.recommendList
-  //       this.weekendList = data.weekendList
-  //     }
-  //   }
-  // },
-  // mounted () {
-  //   this.lastCity = this.city
-  //   this.getHomeInfo()
-  // },
-  // activated () {
-  //   if (this.lastCity !== this.city) {
-  //     this.lastCity = this.city
-  //     this.getHomeInfo()
-  //   }
-  // }
-
-
 }
 </script>
 

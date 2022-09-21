@@ -7,7 +7,7 @@
         :key="item"
         :ref="elem => elems[item] = elem"
         @click="handleLetterClick"
-        @touchstart="handleTouchStart"
+        @touchstart.prevent="handleTouchStart"
         @touchmove="handleTouchMove"
         @touchend="handleTouchEnd"
       >

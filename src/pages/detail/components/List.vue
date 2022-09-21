@@ -1,41 +1,63 @@
 <template>
   <div>
-    <div class="item" v-for="(item, index) of list" :key="index">
-      <div class="item-title border-bottom">
-        <span class="item-title-icon"></span>
-        {{ item.title }}
-      </div>
-      <div v-if="item.children" class="item-children">
-        <detail-list :list="item.children"></detail-list>
-      </div>
+    <div class="intro">
+      <p>
+        <span class="b">&nbsp;|</span>
+        购票政策
+      </p>
+      <p class="intro-info-p">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ content.coupon }}</p>
+    </div>
+    <div>
+      <p>
+        <span class="b">&nbsp;|</span>
+        售票时间
+      </p>
+      <p class="intro-info-p">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ content.opentime }}</p>
+    </div>
+    <div>
+      <p>
+        <span class="b">&nbsp;|</span>
+        注意
+      </p>
+      <p class="intro-info-p">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ content.attention }}</p>
+    </div>
+    <div>
+      <p>
+        <span class="b">&nbsp;|</span>
+        景点简介
+      </p>
+      <p class="intro-info-p">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ content.content }}</p>
     </div>
   </div>
 </template>
 
 <script>
+import {onUpdated} from "vue";
+
 export default {
   name: 'DetailList',
   props: {
-    list: Array
-  }
+    content: Object,
+    demo: Object
+  },
+  // setup(props) {
+  //   onUpdated(() =>{
+  //     console.log(props.content)
+  //   })
+  // }
 }
 </script>
 
 <style lang="stylus" scoped>
-.item-title-icon
-  position: relative
-  left: .06rem
-  top: .06rem
-  display: inline-block
-  width: .36rem
-  height: .36rem
-  background: url(http://s.qunarzz.com/piao/image/touch/sight/detail.png) 0 -.45rem no-repeat
-  margin-right: .1rem
-  background-size: .4rem 3rem
-.item-title
-  line-height: .8rem
-  font-size: .32rem
-  padding: 0 .2rem
-.item-children
-  padding: 0 .2rem
+.intro
+  margin: 8px 0;
+.b
+  color #00bcd4
+  font-weight bolder
+.intro-info-p {
+  font-size: 14px;
+  color: #666;
+  margin: 8px 0;
+  line-height: 24px;
+}
 </style>

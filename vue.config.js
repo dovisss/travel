@@ -7,8 +7,13 @@ module.exports = {
 				pathRewrite: {
 					'^/api': '/mock'
 				}
+			},
+			'/sight': {
+				target: 'https://route.showapi.com/268-1',
+				changeOrigin: true,             //是否跨域
 			}
 		}
+		// proxy: 'https://route.showapi.com/268-1'
 	},
 	chainWebpack: (config) => {
 		config.resolve.alias
