@@ -53,8 +53,8 @@ export default {
       let res = await axios.get('/sight', {
         params: {
           keyword: city,
-          showapi_appid: 1171347,
-          showapi_sign: 'edfc802ac93a4cd88b734cb7cca1105b'
+          showapi_appid: 1175387,
+          showapi_sign: 'afa048660e91401fb260fda23457ab1f'
         }
       })
       let sightList = []

@@ -2,7 +2,7 @@
   <div>
     <home-header></home-header>
     <home-swiper :list="swiperList"></home-swiper>
-<!--    <home-icons :list="iconList"></home-icons>-->
+    <home-icons :list="iconList"></home-icons>
     <home-recommend :list="recommendList"></home-recommend>
     <home-weekend :list="weekendList"></home-weekend>
   </div>
@@ -43,8 +43,8 @@ export default {
       let res = await axios.get('/sight', {
         params: {
           keyword: city,
-          showapi_appid: 1171347,
-          showapi_sign: 'edfc802ac93a4cd88b734cb7cca1105b'
+          showapi_appid: 1175387,
+          showapi_sign: 'afa048660e91401fb260fda23457ab1f'
         }
       })
       res = res.data
@@ -62,12 +62,12 @@ export default {
         data.weekendList = recommendList
       }
 
-      // // iconList
-      // let res1 = await axios.get('/api/iconList.json')
-      // if (res1.status == 200 && res1.data) {
-      //   const result = res1.data
-      //   data.iconList = result.iconList
-      // }
+      // iconList
+      let res1 = await axios.get('/api/iconList.json')
+      if (res1.status == 200 && res1.data) {
+        const result = res1.data
+        data.iconList = result.iconList
+      }
     }
 
     onMounted(()=> {
